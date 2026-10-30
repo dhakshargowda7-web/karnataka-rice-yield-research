@@ -1,0 +1,9 @@
+,,R2,R2,MAE,MAE,RMSE,RMSE
+,,mean,std,mean,std,mean,std
+Model,Condition,,,,,,
+Random Forest,With PMFBY flag,0.724,0.051,295.416,21.738,400.644,28.582
+Random Forest,Without PMFBY flag,0.696,0.054,314.295,20.7,420.709,27.734
+Ridge,With PMFBY flag,0.747,0.035,285.175,19.739,384.195,24.231
+Ridge,Without PMFBY flag,0.728,0.04,295.775,21.194,398.487,26.768
+XGBoost,With PMFBY flag,0.73,0.046,292.772,16.736,396.22,25.807
+XGBoost,Without PMFBY flag,0.697,0.057,311.434,21.684,419.52,31.301
