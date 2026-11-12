@@ -5,9 +5,11 @@ District-level rice yield prediction in Karnataka (2000–2023) with Ridge Regre
 ## Layout
 
 ```text
+raw/                   source files the merged panel was assembled from (see raw/README.md)
 data/
   karnataka_rice_climate_irrigation_merged_2000_2023.csv   the merged panel used by every experiment
 scripts/
+  build_dataset.py     rebuilds the merged panel from raw/ and checks it matches data/
   common.py            shared settings: features, model configuration, preprocessing, metrics
   run_experiments.py   runs all experiments and writes results/*.csv
   make_figures.py      draws the box plots in results/figures/ from those CSVs
@@ -24,7 +26,7 @@ results/               outputs of the two scripts (regenerated on every run)
 - **Irrigation:** irrigated share of rice area from Karnataka Directorate of Economics and Statistics district reports, grouped as Rain-fed (<30%), Mixed (30–70%) or Irrigated (≥70%). It is directly observed for 79 rows (2009, 2011 and 2017). `legacy_static_irrigation_group` is an older fallback label and is **not** used as an observation.
 - **`pmfby_policy_era`:** 0 for 2000–2015 and 1 for 2016–2023. It marks the policy period only, not district-level enrolment or claims.
 
-Area and production are never used as predictors, because yield is derived from them.
+Area and production are never used as predictors, because yield is derived from them. The source files and how they were joined are described in [`raw/README.md`](raw/README.md).
 
 ## Experiments
 
@@ -47,6 +49,7 @@ Every experiment uses district identity (one-hot) and the eight climate variable
 ```bash
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
+python scripts/build_dataset.py      # optional: verify data/ against raw/
 python scripts/run_experiments.py
 python scripts/make_figures.py
 ```
