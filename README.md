@@ -12,6 +12,7 @@ scripts/
   build_dataset.py     rebuilds the merged panel from raw/ and checks it matches data/
   common.py            shared settings: features, model configuration, preprocessing, metrics
   run_experiments.py   runs all experiments and writes results/*.csv
+  variable_importance.py  XGBoost permutation and SHAP importance under each condition
   make_figures.py      draws the box plots in results/figures/ from those CSVs
 results/               outputs of the two scripts (regenerated on every run)
 ```
@@ -43,6 +44,7 @@ Every experiment uses district identity (one-hot) and the eight climate variable
 3. **Baselines** on the same 376 rows: district historical mean, and previous-year yield (which falls back to the historical mean when the previous year is missing).
 4. **Irrigation** on the 79 observed rows: 30 paired random splits with and without `irrigation_group`, plus training on 2009 and 2011 and testing on 2017.
 5. **PMFBY:** 30 paired random splits (508 train / 128 test) with and without `pmfby_policy_era`.
+6. **XGBoost variable importance** for every split above: permutation importance (increase in test MAE when a variable, or a whole group of related variables, is shuffled; 20 shuffles) and mean absolute TreeSHAP contributions.
 
 ## Reproducing
 
@@ -51,6 +53,7 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 python scripts/build_dataset.py      # optional: verify data/ against raw/
 python scripts/run_experiments.py
+python scripts/variable_importance.py
 python scripts/make_figures.py
 ```
 

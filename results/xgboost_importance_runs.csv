@@ -1,0 +1,1383 @@
+condition,split,level,variable,n_test,perm_mae_increase,mean_abs_shap,label
+Random split,0,variable,rainfall_annual_mm,128,50.71094347757371,145.12249755859375,Annual rainfall
+Random split,0,variable,rainfall_may_mm,128,52.75825254827298,119.2916030883789,May rainfall
+Random split,0,variable,rainfall_june_mm,128,70.57704856546857,68.15071105957031,June rainfall
+Random split,0,variable,rainfall_may_june_mm,128,6.860929413440346,31.495546340942383,May–June rainfall
+Random split,0,variable,temperature_annual_c,128,7.7852674125410575,59.688926696777344,Annual temperature
+Random split,0,variable,temperature_may_c,128,9.501263560531584,41.736881256103516,May temperature
+Random split,0,variable,temperature_june_c,128,13.47815498697542,96.31670379638672,June temperature
+Random split,0,variable,temperature_may_june_c,128,4.060320153307876,31.163816452026367,May–June temperature
+Random split,0,variable,district,128,340.1209102566809,110.7265625,District
+Random split,0,group,District,128,336.7003218306519,110.7265625,District
+Random split,0,group,Rainfall,128,97.5494094533803,172.67257690429688,Rainfall
+Random split,0,group,Temperature,128,30.506361156338862,93.09634399414062,Temperature
+PMFBY (with indicator),0,variable,rainfall_annual_mm,128,47.43698228218541,182.14122009277344,Annual rainfall
+PMFBY (with indicator),0,variable,rainfall_may_mm,128,41.90730828464139,86.84463500976562,May rainfall
+PMFBY (with indicator),0,variable,rainfall_june_mm,128,77.30909494514248,52.202613830566406,June rainfall
+PMFBY (with indicator),0,variable,rainfall_may_june_mm,128,7.63928722279307,32.58205032348633,May–June rainfall
+PMFBY (with indicator),0,variable,temperature_annual_c,128,5.89003790710853,59.708099365234375,Annual temperature
+PMFBY (with indicator),0,variable,temperature_may_c,128,8.840115584600511,30.5794677734375,May temperature
+PMFBY (with indicator),0,variable,temperature_june_c,128,14.929247230286098,78.62215423583984,June temperature
+PMFBY (with indicator),0,variable,temperature_may_june_c,128,-0.3554009330855251,26.031715393066406,May–June temperature
+PMFBY (with indicator),0,variable,pmfby_policy_era,128,19.972292733822968,71.36619567871094,PMFBY indicator
+PMFBY (with indicator),0,variable,district,128,360.70054330165294,268.84906005859375,District
+PMFBY (with indicator),0,group,District,128,352.14965420421703,268.84906005859375,District
+PMFBY (with indicator),0,group,Rainfall,128,90.39046693871352,184.04962158203125,Rainfall
+PMFBY (with indicator),0,group,Temperature,128,22.436297215671267,68.59747314453125,Temperature
+PMFBY (with indicator),0,group,PMFBY indicator,128,21.33902369519707,71.36619567871094,PMFBY indicator
+Random split,1,variable,rainfall_annual_mm,128,44.636771333014146,99.3668212890625,Annual rainfall
+Random split,1,variable,rainfall_may_mm,128,36.89867413980934,115.18610382080078,May rainfall
+Random split,1,variable,rainfall_june_mm,128,66.12283466246501,100.3782958984375,June rainfall
+Random split,1,variable,rainfall_may_june_mm,128,0.19220406703973936,25.462833404541016,May–June rainfall
+Random split,1,variable,temperature_annual_c,128,8.219421455663303,85.94094848632812,Annual temperature
+Random split,1,variable,temperature_may_c,128,-3.8787363641007517,26.96562957763672,May temperature
+Random split,1,variable,temperature_june_c,128,6.3964622819559995,257.2789306640625,June temperature
+Random split,1,variable,temperature_may_june_c,128,3.5825734456045013,156.4876708984375,May–June temperature
+Random split,1,variable,district,128,295.2523065641029,186.98910522460938,District
+Random split,1,group,District,128,314.0663164471783,186.98910522460938,District
+Random split,1,group,Rainfall,128,79.42350299376479,162.38955688476562,Rainfall
+Random split,1,group,Temperature,128,23.387978512636458,151.71414184570312,Temperature
+PMFBY (with indicator),1,variable,rainfall_annual_mm,128,50.513706957585214,119.82889556884766,Annual rainfall
+PMFBY (with indicator),1,variable,rainfall_may_mm,128,25.71404851253384,83.2183609008789,May rainfall
+PMFBY (with indicator),1,variable,rainfall_june_mm,128,64.29763908284403,75.0313949584961,June rainfall
+PMFBY (with indicator),1,variable,rainfall_may_june_mm,128,0.23997234765341205,19.57373809814453,May–June rainfall
+PMFBY (with indicator),1,variable,temperature_annual_c,128,11.486590515474186,81.37709045410156,Annual temperature
+PMFBY (with indicator),1,variable,temperature_may_c,128,-1.8064686624910906,22.18924331665039,May temperature
+PMFBY (with indicator),1,variable,temperature_june_c,128,7.539048201711035,190.75418090820312,June temperature
+PMFBY (with indicator),1,variable,temperature_may_june_c,128,-1.2740830042917395,38.592803955078125,May–June temperature
+PMFBY (with indicator),1,variable,pmfby_policy_era,128,27.644462759553505,71.16533660888672,PMFBY indicator
+PMFBY (with indicator),1,variable,district,128,306.7067276850463,198.6614532470703,District
+PMFBY (with indicator),1,group,District,128,326.48513977351934,198.6614532470703,District
+PMFBY (with indicator),1,group,Rainfall,128,66.89335359233763,139.2135009765625,Rainfall
+PMFBY (with indicator),1,group,Temperature,128,19.896264712997237,136.17953491210938,Temperature
+PMFBY (with indicator),1,group,PMFBY indicator,128,24.9075577814492,71.16533660888672,PMFBY indicator
+Random split,2,variable,rainfall_annual_mm,128,46.999936682779506,165.053466796875,Annual rainfall
+Random split,2,variable,rainfall_may_mm,128,41.526250337124466,116.99302673339844,May rainfall
+Random split,2,variable,rainfall_june_mm,128,52.189675249570904,43.263851165771484,June rainfall
+Random split,2,variable,rainfall_may_june_mm,128,0.029284950184842274,34.46833038330078,May–June rainfall
+Random split,2,variable,temperature_annual_c,128,9.353465256608974,65.6884765625,Annual temperature
+Random split,2,variable,temperature_may_c,128,17.90717495578604,99.55791473388672,May temperature
+Random split,2,variable,temperature_june_c,128,8.208487864365157,77.17335510253906,June temperature
+Random split,2,variable,temperature_may_june_c,128,0.39338525701782884,16.908414840698242,May–June temperature
+Random split,2,variable,district,128,331.1112049768061,282.14068603515625,District
+Random split,2,group,District,128,332.49176943303576,282.14068603515625,District
+Random split,2,group,Rainfall,128,78.03726658877092,230.876953125,Rainfall
+Random split,2,group,Temperature,128,36.89676450842627,126.93329620361328,Temperature
+PMFBY (with indicator),2,variable,rainfall_annual_mm,128,53.72749656343149,202.03843688964844,Annual rainfall
+PMFBY (with indicator),2,variable,rainfall_may_mm,128,22.404968188654145,69.62384033203125,May rainfall
+PMFBY (with indicator),2,variable,rainfall_june_mm,128,64.73240910120367,46.337379455566406,June rainfall
+PMFBY (with indicator),2,variable,rainfall_may_june_mm,128,-0.6862087371081913,16.698020935058594,May–June rainfall
+PMFBY (with indicator),2,variable,temperature_annual_c,128,11.877652254113855,63.213539123535156,Annual temperature
+PMFBY (with indicator),2,variable,temperature_may_c,128,10.451626235018711,130.25401306152344,May temperature
+PMFBY (with indicator),2,variable,temperature_june_c,128,14.166985104990648,55.99810028076172,June temperature
+PMFBY (with indicator),2,variable,temperature_may_june_c,128,3.4149752471575683,9.174671173095703,May–June temperature
+PMFBY (with indicator),2,variable,pmfby_policy_era,128,14.927434684393026,110.40232849121094,PMFBY indicator
+PMFBY (with indicator),2,variable,district,128,338.01688149737765,353.0089111328125,District
+PMFBY (with indicator),2,group,District,128,340.28801294081484,353.0089111328125,District
+PMFBY (with indicator),2,group,Rainfall,128,71.4737829077861,230.77288818359375,Rainfall
+PMFBY (with indicator),2,group,Temperature,128,36.54823743927788,160.40277099609375,Temperature
+PMFBY (with indicator),2,group,PMFBY indicator,128,17.418613618905944,110.40232849121094,PMFBY indicator
+Random split,3,variable,rainfall_annual_mm,128,71.45439552327426,215.6044921875,Annual rainfall
+Random split,3,variable,rainfall_may_mm,128,54.59868061282532,223.03643798828125,May rainfall
+Random split,3,variable,rainfall_june_mm,128,43.01515046464838,111.45681762695312,June rainfall
+Random split,3,variable,rainfall_may_june_mm,128,-3.580389776375074,25.23060417175293,May–June rainfall
+Random split,3,variable,temperature_annual_c,128,9.579903664034003,80.30485534667969,Annual temperature
+Random split,3,variable,temperature_may_c,128,9.799437796095106,104.42584991455078,May temperature
+Random split,3,variable,temperature_june_c,128,3.544454976382693,36.14508819580078,June temperature
+Random split,3,variable,temperature_may_june_c,128,14.049904814292441,201.95297241210938,May–June temperature
+Random split,3,variable,district,128,330.8086397047979,364.8040771484375,District
+Random split,3,group,District,128,322.96844922442256,364.8040771484375,District
+Random split,3,group,Rainfall,128,84.45400965010984,389.5917663574219,Rainfall
+Random split,3,group,Temperature,128,42.56249430633437,149.3736114501953,Temperature
+PMFBY (with indicator),3,variable,rainfall_annual_mm,128,70.16288999483986,170.33966064453125,Annual rainfall
+PMFBY (with indicator),3,variable,rainfall_may_mm,128,43.48442779127521,117.67601776123047,May rainfall
+PMFBY (with indicator),3,variable,rainfall_june_mm,128,45.47447291782407,93.32917022705078,June rainfall
+PMFBY (with indicator),3,variable,rainfall_may_june_mm,128,-3.3355261661453426,9.100736618041992,May–June rainfall
+PMFBY (with indicator),3,variable,temperature_annual_c,128,12.131769064021148,114.37879943847656,Annual temperature
+PMFBY (with indicator),3,variable,temperature_may_c,128,1.802883698674441,81.20820617675781,May temperature
+PMFBY (with indicator),3,variable,temperature_june_c,128,6.1449766990634656,65.92864990234375,June temperature
+PMFBY (with indicator),3,variable,temperature_may_june_c,128,9.06898896325357,156.88063049316406,May–June temperature
+PMFBY (with indicator),3,variable,pmfby_policy_era,128,24.471051471522053,151.72451782226562,PMFBY indicator
+PMFBY (with indicator),3,variable,district,128,360.7912674067055,410.07244873046875,District
+PMFBY (with indicator),3,group,District,128,355.80195215800575,410.07244873046875,District
+PMFBY (with indicator),3,group,Rainfall,128,81.52310103453928,270.57562255859375,Rainfall
+PMFBY (with indicator),3,group,Temperature,128,39.04705565520838,110.22406005859375,Temperature
+PMFBY (with indicator),3,group,PMFBY indicator,128,26.588058539054337,151.72451782226562,PMFBY indicator
+Random split,4,variable,rainfall_annual_mm,128,67.79095646039481,143.87371826171875,Annual rainfall
+Random split,4,variable,rainfall_may_mm,128,43.5525678513706,84.9157485961914,May rainfall
+Random split,4,variable,rainfall_june_mm,128,41.71131612006492,56.077083587646484,June rainfall
+Random split,4,variable,rainfall_may_june_mm,128,-3.150816610294882,57.601112365722656,May–June rainfall
+Random split,4,variable,temperature_annual_c,128,10.368020259326887,115.99375915527344,Annual temperature
+Random split,4,variable,temperature_may_c,128,0.7155620642035558,51.35462951660156,May temperature
+Random split,4,variable,temperature_june_c,128,-0.5388315945353697,53.50498962402344,June temperature
+Random split,4,variable,temperature_may_june_c,128,-1.1907511311792405,75.01573181152344,May–June temperature
+Random split,4,variable,district,128,311.1382519282348,169.25286865234375,District
+Random split,4,group,District,128,321.9683194769411,169.25286865234375,District
+Random split,4,group,Rainfall,128,82.32893116252403,209.91244506835938,Rainfall
+Random split,4,group,Temperature,128,10.09079843873439,199.44244384765625,Temperature
+PMFBY (with indicator),4,variable,rainfall_annual_mm,128,69.76686360874018,164.88882446289062,Annual rainfall
+PMFBY (with indicator),4,variable,rainfall_may_mm,128,29.68696688331438,103.48925018310547,May rainfall
+PMFBY (with indicator),4,variable,rainfall_june_mm,128,54.82732567759226,43.698448181152344,June rainfall
+PMFBY (with indicator),4,variable,rainfall_may_june_mm,128,-2.731616936952423,38.443931579589844,May–June rainfall
+PMFBY (with indicator),4,variable,temperature_annual_c,128,10.92728406534215,112.86659240722656,Annual temperature
+PMFBY (with indicator),4,variable,temperature_may_c,128,-4.222491322760353,24.690053939819336,May temperature
+PMFBY (with indicator),4,variable,temperature_june_c,128,1.4228510385484583,98.15616607666016,June temperature
+PMFBY (with indicator),4,variable,temperature_may_june_c,128,-11.51861611038846,50.29837417602539,May–June temperature
+PMFBY (with indicator),4,variable,pmfby_policy_era,128,11.341334892701132,111.18536376953125,PMFBY indicator
+PMFBY (with indicator),4,variable,district,128,323.54449997006384,212.16928100585938,District
+PMFBY (with indicator),4,group,District,128,331.8671694007684,212.16928100585938,District
+PMFBY (with indicator),4,group,Rainfall,128,66.18977156355245,249.28419494628906,Rainfall
+PMFBY (with indicator),4,group,Temperature,128,2.95108623403477,108.70274353027344,Temperature
+PMFBY (with indicator),4,group,PMFBY indicator,128,10.627619752483849,111.18536376953125,PMFBY indicator
+Random split,5,variable,rainfall_annual_mm,128,52.066497062917435,226.64218139648438,Annual rainfall
+Random split,5,variable,rainfall_may_mm,128,59.65010296830336,90.8072509765625,May rainfall
+Random split,5,variable,rainfall_june_mm,128,56.64415532946988,54.29623794555664,June rainfall
+Random split,5,variable,rainfall_may_june_mm,128,0.7249107725307169,31.67172622680664,May–June rainfall
+Random split,5,variable,temperature_annual_c,128,7.987052170049367,124.71083068847656,Annual temperature
+Random split,5,variable,temperature_may_c,128,9.494315076332802,77.46305084228516,May temperature
+Random split,5,variable,temperature_june_c,128,10.975256713266585,75.19877624511719,June temperature
+Random split,5,variable,temperature_may_june_c,128,8.707884070045589,59.32172393798828,May–June temperature
+Random split,5,variable,district,128,357.79997783234404,278.9859619140625,District
+Random split,5,group,District,128,365.5886092709698,278.9859619140625,District
+Random split,5,group,Rainfall,128,116.12320906566114,301.3659362792969,Rainfall
+Random split,5,group,Temperature,128,39.29957413830904,207.97007751464844,Temperature
+PMFBY (with indicator),5,variable,rainfall_annual_mm,128,50.82167047666049,172.7342987060547,Annual rainfall
+PMFBY (with indicator),5,variable,rainfall_may_mm,128,44.82700829998338,94.23820495605469,May rainfall
+PMFBY (with indicator),5,variable,rainfall_june_mm,128,55.221435358940894,52.84354019165039,June rainfall
+PMFBY (with indicator),5,variable,rainfall_may_june_mm,128,0.5345217583365496,21.182832717895508,May–June rainfall
+PMFBY (with indicator),5,variable,temperature_annual_c,128,18.050658350754386,135.8221435546875,Annual temperature
+PMFBY (with indicator),5,variable,temperature_may_c,128,6.3830417967177935,39.1616096496582,May temperature
+PMFBY (with indicator),5,variable,temperature_june_c,128,7.514770066909511,65.55216217041016,June temperature
+PMFBY (with indicator),5,variable,temperature_may_june_c,128,3.038441517903377,45.45619201660156,May–June temperature
+PMFBY (with indicator),5,variable,pmfby_policy_era,128,24.61512728974298,75.45653533935547,PMFBY indicator
+PMFBY (with indicator),5,variable,district,128,361.8799943797984,301.4403076171875,District
+PMFBY (with indicator),5,group,District,128,369.12048062496063,301.4403076171875,District
+PMFBY (with indicator),5,group,Rainfall,128,91.46034286331701,209.8803253173828,Rainfall
+PMFBY (with indicator),5,group,Temperature,128,35.99827439724449,164.66464233398438,Temperature
+PMFBY (with indicator),5,group,PMFBY indicator,128,22.779976221186384,75.45653533935547,PMFBY indicator
+Random split,6,variable,rainfall_annual_mm,128,62.13595993884419,153.2716064453125,Annual rainfall
+Random split,6,variable,rainfall_may_mm,128,58.56746832219899,106.63983154296875,May rainfall
+Random split,6,variable,rainfall_june_mm,128,55.78911399063568,61.10717010498047,June rainfall
+Random split,6,variable,rainfall_may_june_mm,128,0.04848499005940425,18.760316848754883,May–June rainfall
+Random split,6,variable,temperature_annual_c,128,1.7530916734391382,157.81198120117188,Annual temperature
+Random split,6,variable,temperature_may_c,128,5.447427965084097,44.095619201660156,May temperature
+Random split,6,variable,temperature_june_c,128,8.211097043259377,53.56431579589844,June temperature
+Random split,6,variable,temperature_may_june_c,128,0.5768253096793217,22.575944900512695,May–June temperature
+Random split,6,variable,district,128,295.53027309036173,218.8995361328125,District
+Random split,6,group,District,128,294.25766568590285,218.8995361328125,District
+Random split,6,group,Rainfall,128,81.71748630561413,196.07687377929688,Rainfall
+Random split,6,group,Temperature,128,19.11860999548049,177.15966796875,Temperature
+PMFBY (with indicator),6,variable,rainfall_annual_mm,128,60.54774808206546,137.4702606201172,Annual rainfall
+PMFBY (with indicator),6,variable,rainfall_may_mm,128,44.3872248721557,114.90180969238281,May rainfall
+PMFBY (with indicator),6,variable,rainfall_june_mm,128,64.37522861523969,45.733001708984375,June rainfall
+PMFBY (with indicator),6,variable,rainfall_may_june_mm,128,0.3463066824956428,22.282482147216797,May–June rainfall
+PMFBY (with indicator),6,variable,temperature_annual_c,128,5.6971195222125655,193.76055908203125,Annual temperature
+PMFBY (with indicator),6,variable,temperature_may_c,128,-3.7285770004202137,30.556137084960938,May temperature
+PMFBY (with indicator),6,variable,temperature_june_c,128,13.20101903687252,31.401275634765625,June temperature
+PMFBY (with indicator),6,variable,temperature_may_june_c,128,2.084976688888142,24.710159301757812,May–June temperature
+PMFBY (with indicator),6,variable,pmfby_policy_era,128,22.158506772261035,81.37654876708984,PMFBY indicator
+PMFBY (with indicator),6,variable,district,128,298.518170247648,183.1199951171875,District
+PMFBY (with indicator),6,group,District,128,302.47671791280766,183.1199951171875,District
+PMFBY (with indicator),6,group,Rainfall,128,71.41679556970672,203.69747924804688,Rainfall
+PMFBY (with indicator),6,group,Temperature,128,16.588589158645874,193.80616760253906,Temperature
+PMFBY (with indicator),6,group,PMFBY indicator,128,25.747304916302124,81.37654876708984,PMFBY indicator
+Random split,7,variable,rainfall_annual_mm,128,53.04293885191034,103.81153869628906,Annual rainfall
+Random split,7,variable,rainfall_may_mm,128,58.89336209404864,124.5858154296875,May rainfall
+Random split,7,variable,rainfall_june_mm,128,78.82376168376528,60.11930465698242,June rainfall
+Random split,7,variable,rainfall_may_june_mm,128,1.1442682608514105,34.41065216064453,May–June rainfall
+Random split,7,variable,temperature_annual_c,128,14.184737267820475,99.87439727783203,Annual temperature
+Random split,7,variable,temperature_may_c,128,-3.0708976079096373,26.612014770507812,May temperature
+Random split,7,variable,temperature_june_c,128,14.543512786227723,73.63108825683594,June temperature
+Random split,7,variable,temperature_may_june_c,128,8.849382383229965,43.458045959472656,May–June temperature
+Random split,7,variable,district,128,373.84017330631343,303.2558898925781,District
+Random split,7,group,District,128,369.94083273896126,303.2558898925781,District
+Random split,7,group,Rainfall,128,102.12356695867992,156.89768981933594,Rainfall
+Random split,7,group,Temperature,128,33.511178939105186,205.02259826660156,Temperature
+PMFBY (with indicator),7,variable,rainfall_annual_mm,128,46.115298831855334,127.80819702148438,Annual rainfall
+PMFBY (with indicator),7,variable,rainfall_may_mm,128,45.93682860520802,135.30450439453125,May rainfall
+PMFBY (with indicator),7,variable,rainfall_june_mm,128,76.83708021071654,40.52587890625,June rainfall
+PMFBY (with indicator),7,variable,rainfall_may_june_mm,128,0.34430755190136325,12.601863861083984,May–June rainfall
+PMFBY (with indicator),7,variable,temperature_annual_c,128,17.848189392062924,142.42086791992188,Annual temperature
+PMFBY (with indicator),7,variable,temperature_may_c,128,-4.449162178952858,23.157958984375,May temperature
+PMFBY (with indicator),7,variable,temperature_june_c,128,14.811931883133397,77.58021545410156,June temperature
+PMFBY (with indicator),7,variable,temperature_may_june_c,128,-1.3571357322251685,18.160289764404297,May–June temperature
+PMFBY (with indicator),7,variable,pmfby_policy_era,128,15.492827327976022,139.45672607421875,PMFBY indicator
+PMFBY (with indicator),7,variable,district,128,376.37169388766154,520.80517578125,District
+PMFBY (with indicator),7,group,District,128,370.16239345314875,520.80517578125,District
+PMFBY (with indicator),7,group,Rainfall,128,86.08001819285843,137.54420471191406,Rainfall
+PMFBY (with indicator),7,group,Temperature,128,32.13409218169879,159.9238739013672,Temperature
+PMFBY (with indicator),7,group,PMFBY indicator,128,13.695914101154766,139.45672607421875,PMFBY indicator
+Random split,8,variable,rainfall_annual_mm,128,77.45429447978319,152.85311889648438,Annual rainfall
+Random split,8,variable,rainfall_may_mm,128,46.306453915126085,73.17899322509766,May rainfall
+Random split,8,variable,rainfall_june_mm,128,84.00780826727676,70.73992156982422,June rainfall
+Random split,8,variable,rainfall_may_june_mm,128,1.5429622097352875,27.495180130004883,May–June rainfall
+Random split,8,variable,temperature_annual_c,128,13.328920036592729,98.69483184814453,Annual temperature
+Random split,8,variable,temperature_may_c,128,5.347295152390882,40.88981628417969,May temperature
+Random split,8,variable,temperature_june_c,128,12.711836547222669,50.455039978027344,June temperature
+Random split,8,variable,temperature_may_june_c,128,2.333662698724157,26.436073303222656,May–June temperature
+Random split,8,variable,district,128,342.86821064862,295.15594482421875,District
+Random split,8,group,District,128,340.03002895658926,295.15594482421875,District
+Random split,8,group,Rainfall,128,97.12470723253595,161.5289306640625,Rainfall
+Random split,8,group,Temperature,128,25.873621507883144,123.60314178466797,Temperature
+PMFBY (with indicator),8,variable,rainfall_annual_mm,128,67.5842314196023,130.8534698486328,Annual rainfall
+PMFBY (with indicator),8,variable,rainfall_may_mm,128,28.276137546324122,65.21295166015625,May rainfall
+PMFBY (with indicator),8,variable,rainfall_june_mm,128,76.04853243993406,58.459651947021484,June rainfall
+PMFBY (with indicator),8,variable,rainfall_may_june_mm,128,2.6908571955343406,12.064979553222656,May–June rainfall
+PMFBY (with indicator),8,variable,temperature_annual_c,128,12.072030387669496,78.90946197509766,Annual temperature
+PMFBY (with indicator),8,variable,temperature_may_c,128,-0.2233085791695885,25.966415405273438,May temperature
+PMFBY (with indicator),8,variable,temperature_june_c,128,11.460232756575412,44.101226806640625,June temperature
+PMFBY (with indicator),8,variable,temperature_may_june_c,128,-2.1655915601858737,15.339075088500977,May–June temperature
+PMFBY (with indicator),8,variable,pmfby_policy_era,128,24.421330008255378,71.98503875732422,PMFBY indicator
+PMFBY (with indicator),8,variable,district,128,346.95743503768995,119.89930725097656,District
+PMFBY (with indicator),8,group,District,128,345.69625800027165,119.89930725097656,District
+PMFBY (with indicator),8,group,Rainfall,128,77.95884780876571,177.2913818359375,Rainfall
+PMFBY (with indicator),8,group,Temperature,128,22.185159663489934,71.107177734375,Temperature
+PMFBY (with indicator),8,group,PMFBY indicator,128,19.48581614674995,71.98503875732422,PMFBY indicator
+Random split,9,variable,rainfall_annual_mm,128,49.88943545743272,79.47652435302734,Annual rainfall
+Random split,9,variable,rainfall_may_mm,128,41.95356240780279,100.20649719238281,May rainfall
+Random split,9,variable,rainfall_june_mm,128,55.646279674825976,56.26646423339844,June rainfall
+Random split,9,variable,rainfall_may_june_mm,128,5.918562260476156,65.54573059082031,May–June rainfall
+Random split,9,variable,temperature_annual_c,128,28.043755412960564,99.47804260253906,Annual temperature
+Random split,9,variable,temperature_may_c,128,7.870013760881693,142.48190307617188,May temperature
+Random split,9,variable,temperature_june_c,128,4.379258004298305,51.56913757324219,June temperature
+Random split,9,variable,temperature_may_june_c,128,-1.6580708413093277,47.21235656738281,May–June temperature
+Random split,9,variable,district,128,348.4090659967643,200.24203491210938,District
+Random split,9,group,District,128,340.33047668953816,200.24203491210938,District
+Random split,9,group,Rainfall,128,97.7552477901716,163.84976196289062,Rainfall
+Random split,9,group,Temperature,128,41.43513465700444,175.11062622070312,Temperature
+PMFBY (with indicator),9,variable,rainfall_annual_mm,128,58.38654912215996,98.72238159179688,Annual rainfall
+PMFBY (with indicator),9,variable,rainfall_may_mm,128,34.781985254850426,110.05824279785156,May rainfall
+PMFBY (with indicator),9,variable,rainfall_june_mm,128,65.25055523503185,108.67404174804688,June rainfall
+PMFBY (with indicator),9,variable,rainfall_may_june_mm,128,2.037291076281986,13.188652038574219,May–June rainfall
+PMFBY (with indicator),9,variable,temperature_annual_c,128,29.350346442479463,104.04118347167969,Annual temperature
+PMFBY (with indicator),9,variable,temperature_may_c,128,5.899860500073933,107.78536987304688,May temperature
+PMFBY (with indicator),9,variable,temperature_june_c,128,4.612372419448036,55.70655822753906,June temperature
+PMFBY (with indicator),9,variable,temperature_may_june_c,128,1.856623128604258,27.054229736328125,May–June temperature
+PMFBY (with indicator),9,variable,pmfby_policy_era,128,26.23865873398057,128.21636962890625,PMFBY indicator
+PMFBY (with indicator),9,variable,district,128,347.4112209737102,163.86038208007812,District
+PMFBY (with indicator),9,group,District,128,334.6697042345484,163.86038208007812,District
+PMFBY (with indicator),9,group,Rainfall,128,90.22940841046186,216.8544464111328,Rainfall
+PMFBY (with indicator),9,group,Temperature,128,40.709765436542725,109.95499420166016,Temperature
+PMFBY (with indicator),9,group,PMFBY indicator,128,25.57020235886501,128.21636962890625,PMFBY indicator
+Random split,10,variable,rainfall_annual_mm,128,58.15420031513334,178.14581298828125,Annual rainfall
+Random split,10,variable,rainfall_may_mm,128,20.899247968142845,86.56623840332031,May rainfall
+Random split,10,variable,rainfall_june_mm,128,91.09317675313235,65.63196563720703,June rainfall
+Random split,10,variable,rainfall_may_june_mm,128,-1.2973342458431347,60.34855651855469,May–June rainfall
+Random split,10,variable,temperature_annual_c,128,0.2252237586019362,92.70204162597656,Annual temperature
+Random split,10,variable,temperature_may_c,128,-0.5407716935575735,33.79424285888672,May temperature
+Random split,10,variable,temperature_june_c,128,-2.0477874320955833,42.07323455810547,June temperature
+Random split,10,variable,temperature_may_june_c,128,7.144781155861693,56.905860900878906,May–June temperature
+Random split,10,variable,district,128,337.11850376607725,223.11399841308594,District
+Random split,10,group,District,128,342.1106613228659,223.11399841308594,District
+Random split,10,group,Rainfall,128,74.71188503974257,229.64559936523438,Rainfall
+Random split,10,group,Temperature,128,13.17088616992063,129.18453979492188,Temperature
+PMFBY (with indicator),10,variable,rainfall_annual_mm,128,57.29680023866793,176.7447509765625,Annual rainfall
+PMFBY (with indicator),10,variable,rainfall_may_mm,128,15.858481943653521,65.47773742675781,May rainfall
+PMFBY (with indicator),10,variable,rainfall_june_mm,128,84.4360131519505,67.02822875976562,June rainfall
+PMFBY (with indicator),10,variable,rainfall_may_june_mm,128,0.6139918601929566,25.68585777282715,May–June rainfall
+PMFBY (with indicator),10,variable,temperature_annual_c,128,-0.19380324295838136,113.45626831054688,Annual temperature
+PMFBY (with indicator),10,variable,temperature_may_c,128,-2.7139890184325823,25.437942504882812,May temperature
+PMFBY (with indicator),10,variable,temperature_june_c,128,10.062716385735325,46.68138885498047,June temperature
+PMFBY (with indicator),10,variable,temperature_may_june_c,128,5.943503904610526,23.661975860595703,May–June temperature
+PMFBY (with indicator),10,variable,pmfby_policy_era,128,20.473472123430618,109.57321166992188,PMFBY indicator
+PMFBY (with indicator),10,variable,district,128,347.38207631229693,220.25567626953125,District
+PMFBY (with indicator),10,group,District,128,351.27543615235226,220.25567626953125,District
+PMFBY (with indicator),10,group,Rainfall,128,62.25244850456048,213.3647918701172,Rainfall
+PMFBY (with indicator),10,group,Temperature,128,17.50587146176479,100.10455322265625,Temperature
+PMFBY (with indicator),10,group,PMFBY indicator,128,16.888156529661615,109.57321166992188,PMFBY indicator
+Random split,11,variable,rainfall_annual_mm,128,78.09252382629032,271.25567626953125,Annual rainfall
+Random split,11,variable,rainfall_may_mm,128,43.700913295625014,56.895286560058594,May rainfall
+Random split,11,variable,rainfall_june_mm,128,77.0450595965875,99.41482543945312,June rainfall
+Random split,11,variable,rainfall_may_june_mm,128,5.086795648720118,32.86228561401367,May–June rainfall
+Random split,11,variable,temperature_annual_c,128,18.91647882863857,103.72737884521484,Annual temperature
+Random split,11,variable,temperature_may_c,128,2.7400281632698382,32.99789047241211,May temperature
+Random split,11,variable,temperature_june_c,128,6.153170322436745,74.01264190673828,June temperature
+Random split,11,variable,temperature_may_june_c,128,1.795802886425784,24.437278747558594,May–June temperature
+Random split,11,variable,district,128,305.86564382255125,221.3885498046875,District
+Random split,11,group,District,128,303.81577127976095,221.3885498046875,District
+Random split,11,group,Rainfall,128,96.99805655609786,256.03753662109375,Rainfall
+Random split,11,group,Temperature,128,35.31669049299757,180.85723876953125,Temperature
+PMFBY (with indicator),11,variable,rainfall_annual_mm,128,71.00410326392613,239.68673706054688,Annual rainfall
+PMFBY (with indicator),11,variable,rainfall_may_mm,128,27.530256818607405,40.963748931884766,May rainfall
+PMFBY (with indicator),11,variable,rainfall_june_mm,128,71.25223812014073,72.3546142578125,June rainfall
+PMFBY (with indicator),11,variable,rainfall_may_june_mm,128,1.0833531630638533,14.332408905029297,May–June rainfall
+PMFBY (with indicator),11,variable,temperature_annual_c,128,16.479145612853483,95.62275695800781,Annual temperature
+PMFBY (with indicator),11,variable,temperature_may_c,128,-0.5952234553088289,21.847492218017578,May temperature
+PMFBY (with indicator),11,variable,temperature_june_c,128,6.820955065514172,71.90177917480469,June temperature
+PMFBY (with indicator),11,variable,temperature_may_june_c,128,1.3628546284497787,18.418682098388672,May–June temperature
+PMFBY (with indicator),11,variable,pmfby_policy_era,128,12.823742086673764,220.27865600585938,PMFBY indicator
+PMFBY (with indicator),11,variable,district,128,307.34236705627916,337.2409362792969,District
+PMFBY (with indicator),11,group,District,128,306.1183128956592,337.2409362792969,District
+PMFBY (with indicator),11,group,Rainfall,128,73.0396191716563,221.6438751220703,Rainfall
+PMFBY (with indicator),11,group,Temperature,128,25.780262405277334,127.22767639160156,Temperature
+PMFBY (with indicator),11,group,PMFBY indicator,128,13.571512560126852,220.27865600585938,PMFBY indicator
+Random split,12,variable,rainfall_annual_mm,128,56.823212209785936,217.37985229492188,Annual rainfall
+Random split,12,variable,rainfall_may_mm,128,31.811929333252444,72.03340148925781,May rainfall
+Random split,12,variable,rainfall_june_mm,128,72.31180830149788,80.67512512207031,June rainfall
+Random split,12,variable,rainfall_may_june_mm,128,-2.536598459528244,72.5732192993164,May–June rainfall
+Random split,12,variable,temperature_annual_c,128,6.3936062144833326,63.958709716796875,Annual temperature
+Random split,12,variable,temperature_may_c,128,-7.468088829940169,48.969947814941406,May temperature
+Random split,12,variable,temperature_june_c,128,10.922737988143888,43.56576919555664,June temperature
+Random split,12,variable,temperature_may_june_c,128,12.117218047228798,68.15611267089844,May–June temperature
+Random split,12,variable,district,128,344.1611111956576,321.39788818359375,District
+Random split,12,group,District,128,344.78823563206527,321.39788818359375,District
+Random split,12,group,Rainfall,128,65.48332035115013,210.9322967529297,Rainfall
+Random split,12,group,Temperature,128,19.825209150632887,157.90696716308594,Temperature
+PMFBY (with indicator),12,variable,rainfall_annual_mm,128,48.52033893920727,216.22584533691406,Annual rainfall
+PMFBY (with indicator),12,variable,rainfall_may_mm,128,20.040384393529685,98.39545440673828,May rainfall
+PMFBY (with indicator),12,variable,rainfall_june_mm,128,69.61587616255859,62.552635192871094,June rainfall
+PMFBY (with indicator),12,variable,rainfall_may_june_mm,128,-4.540510181931455,52.16132354736328,May–June rainfall
+PMFBY (with indicator),12,variable,temperature_annual_c,128,11.440556550958798,115.95465087890625,Annual temperature
+PMFBY (with indicator),12,variable,temperature_may_c,128,-10.676173876718455,20.48909568786621,May temperature
+PMFBY (with indicator),12,variable,temperature_june_c,128,17.06187123912057,33.20901870727539,June temperature
+PMFBY (with indicator),12,variable,temperature_may_june_c,128,9.244408580167178,27.680992126464844,May–June temperature
+PMFBY (with indicator),12,variable,pmfby_policy_era,128,20.480824884210744,98.82281494140625,PMFBY indicator
+PMFBY (with indicator),12,variable,district,128,344.92859783070094,288.7621765136719,District
+PMFBY (with indicator),12,group,District,128,350.4520054491895,288.7621765136719,District
+PMFBY (with indicator),12,group,Rainfall,128,51.983401609123995,233.06610107421875,Rainfall
+PMFBY (with indicator),12,group,Temperature,128,23.095181471635545,84.60604095458984,Temperature
+PMFBY (with indicator),12,group,PMFBY indicator,128,20.722744630468192,98.82281494140625,PMFBY indicator
+Random split,13,variable,rainfall_annual_mm,128,83.17088096379058,271.9423522949219,Annual rainfall
+Random split,13,variable,rainfall_may_mm,128,32.21676731605997,70.03239440917969,May rainfall
+Random split,13,variable,rainfall_june_mm,128,35.82354148069951,114.8001708984375,June rainfall
+Random split,13,variable,rainfall_may_june_mm,128,-7.347450801125632,22.220260620117188,May–June rainfall
+Random split,13,variable,temperature_annual_c,128,4.572873621550531,39.65994644165039,Annual temperature
+Random split,13,variable,temperature_may_c,128,-3.8572643558858744,37.874961853027344,May temperature
+Random split,13,variable,temperature_june_c,128,5.586810163910698,82.73430633544922,June temperature
+Random split,13,variable,temperature_may_june_c,128,-5.154613249467664,57.37892150878906,May–June temperature
+Random split,13,variable,district,128,329.8357878845935,571.5632934570312,District
+Random split,13,group,District,128,328.9687659795386,571.5632934570312,District
+Random split,13,group,Rainfall,128,75.98895341473775,256.2228698730469,Rainfall
+Random split,13,group,Temperature,128,12.106033212999524,174.32720947265625,Temperature
+PMFBY (with indicator),13,variable,rainfall_annual_mm,128,73.1895471425224,180.2850341796875,Annual rainfall
+PMFBY (with indicator),13,variable,rainfall_may_mm,128,23.868468731175973,82.90609741210938,May rainfall
+PMFBY (with indicator),13,variable,rainfall_june_mm,128,30.698047142860823,80.25448608398438,June rainfall
+PMFBY (with indicator),13,variable,rainfall_may_june_mm,128,-4.903610692893238,22.970169067382812,May–June rainfall
+PMFBY (with indicator),13,variable,temperature_annual_c,128,3.4030503510877965,53.759788513183594,Annual temperature
+PMFBY (with indicator),13,variable,temperature_may_c,128,-3.5107818770106434,14.316581726074219,May temperature
+PMFBY (with indicator),13,variable,temperature_june_c,128,4.189691637222933,73.44151306152344,June temperature
+PMFBY (with indicator),13,variable,temperature_may_june_c,128,-2.3653312708722467,45.45061111450195,May–June temperature
+PMFBY (with indicator),13,variable,pmfby_policy_era,128,23.34323590161259,133.410400390625,PMFBY indicator
+PMFBY (with indicator),13,variable,district,128,334.6857810616765,456.56231689453125,District
+PMFBY (with indicator),13,group,District,128,333.86504758247355,456.56231689453125,District
+PMFBY (with indicator),13,group,Rainfall,128,65.37224582445089,175.62811279296875,Rainfall
+PMFBY (with indicator),13,group,Temperature,128,4.280982000388045,84.59024047851562,Temperature
+PMFBY (with indicator),13,group,PMFBY indicator,128,25.01732658001224,133.410400390625,PMFBY indicator
+Random split,14,variable,rainfall_annual_mm,128,44.14935211504886,173.82369995117188,Annual rainfall
+Random split,14,variable,rainfall_may_mm,128,41.49910462857105,71.72046661376953,May rainfall
+Random split,14,variable,rainfall_june_mm,128,54.65877309234982,74.81568908691406,June rainfall
+Random split,14,variable,rainfall_may_june_mm,128,3.689746512505363,61.78627395629883,May–June rainfall
+Random split,14,variable,temperature_annual_c,128,10.834381350230242,58.72837829589844,Annual temperature
+Random split,14,variable,temperature_may_c,128,2.95250372107906,71.12686157226562,May temperature
+Random split,14,variable,temperature_june_c,128,12.655631531119553,83.12149047851562,June temperature
+Random split,14,variable,temperature_may_june_c,128,-3.3135446371511277,50.43974304199219,May–June temperature
+Random split,14,variable,district,128,288.21157645579876,188.572998046875,District
+Random split,14,group,District,128,274.5635799860269,188.572998046875,District
+Random split,14,group,Rainfall,128,84.62846386250514,201.86697387695312,Rainfall
+Random split,14,group,Temperature,128,28.28949479736226,181.69277954101562,Temperature
+PMFBY (with indicator),14,variable,rainfall_annual_mm,128,46.59465854975444,169.6077880859375,Annual rainfall
+PMFBY (with indicator),14,variable,rainfall_may_mm,128,34.19974888843318,43.147438049316406,May rainfall
+PMFBY (with indicator),14,variable,rainfall_june_mm,128,67.31702101115313,87.1575698852539,June rainfall
+PMFBY (with indicator),14,variable,rainfall_may_june_mm,128,1.185497790656464,5.56257438659668,May–June rainfall
+PMFBY (with indicator),14,variable,temperature_annual_c,128,11.908403011409206,63.83575439453125,Annual temperature
+PMFBY (with indicator),14,variable,temperature_may_c,128,2.6287506580883333,30.95934295654297,May temperature
+PMFBY (with indicator),14,variable,temperature_june_c,128,13.120515194098104,67.18051147460938,June temperature
+PMFBY (with indicator),14,variable,temperature_may_june_c,128,-6.4388431463880895,41.09075164794922,May–June temperature
+PMFBY (with indicator),14,variable,pmfby_policy_era,128,27.5943381771526,87.11146545410156,PMFBY indicator
+PMFBY (with indicator),14,variable,district,128,311.8028042689772,175.85406494140625,District
+PMFBY (with indicator),14,group,District,128,295.8269931890836,175.85406494140625,District
+PMFBY (with indicator),14,group,Rainfall,128,86.26608035618105,152.39105224609375,Rainfall
+PMFBY (with indicator),14,group,Temperature,128,24.283981254576172,94.60128784179688,Temperature
+PMFBY (with indicator),14,group,PMFBY indicator,128,25.757456404031778,87.11146545410156,PMFBY indicator
+Random split,15,variable,rainfall_annual_mm,128,57.812043095448146,109.15113830566406,Annual rainfall
+Random split,15,variable,rainfall_may_mm,128,62.53736770878565,90.40457916259766,May rainfall
+Random split,15,variable,rainfall_june_mm,128,53.50011984061317,90.81538391113281,June rainfall
+Random split,15,variable,rainfall_may_june_mm,128,5.238255981789967,33.778587341308594,May–June rainfall
+Random split,15,variable,temperature_annual_c,128,23.878614640066566,131.5147247314453,Annual temperature
+Random split,15,variable,temperature_may_c,128,-2.5249452670356534,36.88594436645508,May temperature
+Random split,15,variable,temperature_june_c,128,8.282054486901433,120.28489685058594,June temperature
+Random split,15,variable,temperature_may_june_c,128,8.88235098024158,126.25170135498047,May–June temperature
+Random split,15,variable,district,128,387.7512331307526,337.580810546875,District
+Random split,15,group,District,128,380.33819833950844,337.580810546875,District
+Random split,15,group,Rainfall,128,96.69017041269326,196.0105743408203,Rainfall
+Random split,15,group,Temperature,128,29.0331001910866,141.608154296875,Temperature
+PMFBY (with indicator),15,variable,rainfall_annual_mm,128,60.892112156495955,95.85563659667969,Annual rainfall
+PMFBY (with indicator),15,variable,rainfall_may_mm,128,44.86933550700443,72.27616882324219,May rainfall
+PMFBY (with indicator),15,variable,rainfall_june_mm,128,52.705381950592255,60.16440200805664,June rainfall
+PMFBY (with indicator),15,variable,rainfall_may_june_mm,128,1.2828397750538074,33.14499282836914,May–June rainfall
+PMFBY (with indicator),15,variable,temperature_annual_c,128,21.55074396059809,147.0056915283203,Annual temperature
+PMFBY (with indicator),15,variable,temperature_may_c,128,-0.5671383142680781,47.58218765258789,May temperature
+PMFBY (with indicator),15,variable,temperature_june_c,128,12.407235363878542,92.60752868652344,June temperature
+PMFBY (with indicator),15,variable,temperature_may_june_c,128,5.560633075282391,21.084312438964844,May–June temperature
+PMFBY (with indicator),15,variable,pmfby_policy_era,128,33.72436252274203,144.336669921875,PMFBY indicator
+PMFBY (with indicator),15,variable,district,128,409.6488797888699,169.12753295898438,District
+PMFBY (with indicator),15,group,District,128,402.9993018523604,169.12753295898438,District
+PMFBY (with indicator),15,group,Rainfall,128,86.08862673245929,139.4075469970703,Rainfall
+PMFBY (with indicator),15,group,Temperature,128,35.69166885750356,134.09738159179688,Temperature
+PMFBY (with indicator),15,group,PMFBY indicator,128,37.37303405407098,144.336669921875,PMFBY indicator
+Random split,16,variable,rainfall_annual_mm,128,58.74211795538184,116.05915832519531,Annual rainfall
+Random split,16,variable,rainfall_may_mm,128,42.84739081210872,119.43925476074219,May rainfall
+Random split,16,variable,rainfall_june_mm,128,58.27099092981524,80.23303985595703,June rainfall
+Random split,16,variable,rainfall_may_june_mm,128,8.812743214155395,39.184913635253906,May–June rainfall
+Random split,16,variable,temperature_annual_c,128,11.173083901648255,55.67522430419922,Annual temperature
+Random split,16,variable,temperature_may_c,128,0.08933429456498346,80.4334487915039,May temperature
+Random split,16,variable,temperature_june_c,128,2.9328275981292022,156.28016662597656,June temperature
+Random split,16,variable,temperature_may_june_c,128,12.8745387417232,46.490753173828125,May–June temperature
+Random split,16,variable,district,128,343.88582653415267,379.7293701171875,District
+Random split,16,group,District,128,344.0061968381365,379.7293701171875,District
+Random split,16,group,Rainfall,128,79.89154805002667,141.5672149658203,Rainfall
+Random split,16,group,Temperature,128,33.638916695660136,266.9176025390625,Temperature
+PMFBY (with indicator),16,variable,rainfall_annual_mm,128,70.96946287134294,121.39527893066406,Annual rainfall
+PMFBY (with indicator),16,variable,rainfall_may_mm,128,34.25091705186393,137.39495849609375,May rainfall
+PMFBY (with indicator),16,variable,rainfall_june_mm,128,64.83590638741953,61.50928497314453,June rainfall
+PMFBY (with indicator),16,variable,rainfall_may_june_mm,128,6.793447128474068,28.464008331298828,May–June rainfall
+PMFBY (with indicator),16,variable,temperature_annual_c,128,16.342724786182508,126.43065643310547,Annual temperature
+PMFBY (with indicator),16,variable,temperature_may_c,128,-1.0386245444897468,19.092971801757812,May temperature
+PMFBY (with indicator),16,variable,temperature_june_c,128,3.58051711201702,131.08218383789062,June temperature
+PMFBY (with indicator),16,variable,temperature_may_june_c,128,4.804852254158661,30.773529052734375,May–June temperature
+PMFBY (with indicator),16,variable,pmfby_policy_era,128,21.812490079550603,106.41508483886719,PMFBY indicator
+PMFBY (with indicator),16,variable,district,128,366.42470603274404,110.4985122680664,District
+PMFBY (with indicator),16,group,District,128,359.24964191145506,110.4985122680664,District
+PMFBY (with indicator),16,group,Rainfall,128,80.92320067234427,145.68760681152344,Rainfall
+PMFBY (with indicator),16,group,Temperature,128,25.974914103354376,207.2803955078125,Temperature
+PMFBY (with indicator),16,group,PMFBY indicator,128,26.199656837686245,106.41508483886719,PMFBY indicator
+Random split,17,variable,rainfall_annual_mm,128,53.85094501825442,346.1421203613281,Annual rainfall
+Random split,17,variable,rainfall_may_mm,128,38.30397801692068,77.64497375488281,May rainfall
+Random split,17,variable,rainfall_june_mm,128,61.1469690564071,72.87844848632812,June rainfall
+Random split,17,variable,rainfall_may_june_mm,128,-0.0849420360970754,43.84960174560547,May–June rainfall
+Random split,17,variable,temperature_annual_c,128,8.377183711072302,82.2397689819336,Annual temperature
+Random split,17,variable,temperature_may_c,128,-2.1656939263483705,39.966617584228516,May temperature
+Random split,17,variable,temperature_june_c,128,6.143091793480167,44.239585876464844,June temperature
+Random split,17,variable,temperature_may_june_c,128,-0.5440194729845587,42.76140594482422,May–June temperature
+Random split,17,variable,district,128,246.3851578869886,335.0144348144531,District
+Random split,17,group,District,128,238.54607369660903,335.0144348144531,District
+Random split,17,group,Rainfall,128,74.70630391967711,377.1733703613281,Rainfall
+Random split,17,group,Temperature,128,25.15727525565578,142.6781005859375,Temperature
+PMFBY (with indicator),17,variable,rainfall_annual_mm,128,56.72528689410933,293.9359130859375,Annual rainfall
+PMFBY (with indicator),17,variable,rainfall_may_mm,128,28.89257425172522,89.76443481445312,May rainfall
+PMFBY (with indicator),17,variable,rainfall_june_mm,128,66.92084823869968,61.705013275146484,June rainfall
+PMFBY (with indicator),17,variable,rainfall_may_june_mm,128,-0.9014398847666172,23.136146545410156,May–June rainfall
+PMFBY (with indicator),17,variable,temperature_annual_c,128,12.921154765574162,75.42359161376953,Annual temperature
+PMFBY (with indicator),17,variable,temperature_may_c,128,-1.4305820247325216,32.6637077331543,May temperature
+PMFBY (with indicator),17,variable,temperature_june_c,128,7.45939562182509,50.64750289916992,June temperature
+PMFBY (with indicator),17,variable,temperature_may_june_c,128,1.4884006367814835,19.36934471130371,May–June temperature
+PMFBY (with indicator),17,variable,pmfby_policy_era,128,27.617601413268346,26.113719940185547,PMFBY indicator
+PMFBY (with indicator),17,variable,district,128,274.54055754776795,230.93296813964844,District
+PMFBY (with indicator),17,group,District,128,268.0585762304561,230.93296813964844,District
+PMFBY (with indicator),17,group,Rainfall,128,71.41957872957146,341.4483947753906,Rainfall
+PMFBY (with indicator),17,group,Temperature,128,24.865444945481084,83.40922546386719,Temperature
+PMFBY (with indicator),17,group,PMFBY indicator,128,28.8269926894154,26.113719940185547,PMFBY indicator
+Random split,18,variable,rainfall_annual_mm,128,60.301327983751946,119.63636779785156,Annual rainfall
+Random split,18,variable,rainfall_may_mm,128,59.421904827089385,101.28565216064453,May rainfall
+Random split,18,variable,rainfall_june_mm,128,51.03989624200051,124.78133392333984,June rainfall
+Random split,18,variable,rainfall_may_june_mm,128,1.464546774296133,32.924949645996094,May–June rainfall
+Random split,18,variable,temperature_annual_c,128,12.816529663535638,68.27403259277344,Annual temperature
+Random split,18,variable,temperature_may_c,128,1.1239798340107314,18.29559326171875,May temperature
+Random split,18,variable,temperature_june_c,128,10.07682191962557,97.0114974975586,June temperature
+Random split,18,variable,temperature_may_june_c,128,4.578837088012418,58.81083679199219,May–June temperature
+Random split,18,variable,district,128,402.46406422259395,152.4801483154297,District
+Random split,18,group,District,128,406.05891256219627,152.4801483154297,District
+Random split,18,group,Rainfall,128,108.27422738635862,214.67266845703125,Rainfall
+Random split,18,group,Temperature,128,18.19622718543885,91.1834716796875,Temperature
+PMFBY (with indicator),18,variable,rainfall_annual_mm,128,64.34185593516241,97.92357635498047,Annual rainfall
+PMFBY (with indicator),18,variable,rainfall_may_mm,128,43.554710673420864,71.40007019042969,May rainfall
+PMFBY (with indicator),18,variable,rainfall_june_mm,128,54.40784243277756,74.25050354003906,June rainfall
+PMFBY (with indicator),18,variable,rainfall_may_june_mm,128,0.4890947449565374,29.85843849182129,May–June rainfall
+PMFBY (with indicator),18,variable,temperature_annual_c,128,15.98255117764575,91.54019165039062,Annual temperature
+PMFBY (with indicator),18,variable,temperature_may_c,128,-0.13800992418585167,15.14901351928711,May temperature
+PMFBY (with indicator),18,variable,temperature_june_c,128,9.217548970416837,74.94139099121094,June temperature
+PMFBY (with indicator),18,variable,temperature_may_june_c,128,0.6373869774820662,29.27581024169922,May–June temperature
+PMFBY (with indicator),18,variable,pmfby_policy_era,128,25.585440924682075,104.10385131835938,PMFBY indicator
+PMFBY (with indicator),18,variable,district,128,402.2051951780949,178.4479522705078,District
+PMFBY (with indicator),18,group,District,128,403.158245204953,178.4479522705078,District
+PMFBY (with indicator),18,group,Rainfall,128,96.98229477155272,168.16619873046875,Rainfall
+PMFBY (with indicator),18,group,Temperature,128,14.746818722908973,74.71804809570312,Temperature
+PMFBY (with indicator),18,group,PMFBY indicator,128,25.80689630502959,104.10385131835938,PMFBY indicator
+Random split,19,variable,rainfall_annual_mm,128,35.929903927884666,207.419677734375,Annual rainfall
+Random split,19,variable,rainfall_may_mm,128,46.56821711812984,59.464569091796875,May rainfall
+Random split,19,variable,rainfall_june_mm,128,50.20023557735094,49.932125091552734,June rainfall
+Random split,19,variable,rainfall_may_june_mm,128,-2.6384298165575784,16.54514503479004,May–June rainfall
+Random split,19,variable,temperature_annual_c,128,-1.3032352622027248,62.10790252685547,Annual temperature
+Random split,19,variable,temperature_may_c,128,-1.3244854192630782,59.00176239013672,May temperature
+Random split,19,variable,temperature_june_c,128,6.740433054348278,45.67301940917969,June temperature
+Random split,19,variable,temperature_may_june_c,128,5.7053851125558,61.43775939941406,May–June temperature
+Random split,19,variable,district,128,328.4129243602244,226.28436279296875,District
+Random split,19,group,District,128,338.9802819549176,226.28436279296875,District
+Random split,19,group,Rainfall,128,81.29977611845781,232.65574645996094,Rainfall
+Random split,19,group,Temperature,128,14.143923262226854,94.28993225097656,Temperature
+PMFBY (with indicator),19,variable,rainfall_annual_mm,128,37.109911561072046,229.73178100585938,Annual rainfall
+PMFBY (with indicator),19,variable,rainfall_may_mm,128,33.04233233203867,62.323997497558594,May rainfall
+PMFBY (with indicator),19,variable,rainfall_june_mm,128,63.21144597984111,70.43314361572266,June rainfall
+PMFBY (with indicator),19,variable,rainfall_may_june_mm,128,1.6705270603398361,13.505086898803711,May–June rainfall
+PMFBY (with indicator),19,variable,temperature_annual_c,128,8.791672292201588,95.52178192138672,Annual temperature
+PMFBY (with indicator),19,variable,temperature_may_c,128,-0.6517320004401768,40.956932067871094,May temperature
+PMFBY (with indicator),19,variable,temperature_june_c,128,10.817601752649125,41.43716049194336,June temperature
+PMFBY (with indicator),19,variable,temperature_may_june_c,128,1.4469019030326962,44.313262939453125,May–June temperature
+PMFBY (with indicator),19,variable,pmfby_policy_era,128,24.59566710282285,142.23330688476562,PMFBY indicator
+PMFBY (with indicator),19,variable,district,128,357.5075250856046,195.59617614746094,District
+PMFBY (with indicator),19,group,District,128,366.13727663520257,195.59617614746094,District
+PMFBY (with indicator),19,group,Rainfall,128,70.19938233794606,226.3003387451172,Rainfall
+PMFBY (with indicator),19,group,Temperature,128,21.546834923233256,65.33091735839844,Temperature
+PMFBY (with indicator),19,group,PMFBY indicator,128,24.17898310135093,142.23330688476562,PMFBY indicator
+Random split,20,variable,rainfall_annual_mm,128,49.786682963875066,129.42092895507812,Annual rainfall
+Random split,20,variable,rainfall_may_mm,128,20.960405876565126,70.38345336914062,May rainfall
+Random split,20,variable,rainfall_june_mm,128,59.05943161320003,91.09536743164062,June rainfall
+Random split,20,variable,rainfall_may_june_mm,128,-1.0763927139977398,20.275482177734375,May–June rainfall
+Random split,20,variable,temperature_annual_c,128,12.84796401152568,184.44625854492188,Annual temperature
+Random split,20,variable,temperature_may_c,128,-3.057575678021524,58.68494415283203,May temperature
+Random split,20,variable,temperature_june_c,128,16.982433600185853,67.30862426757812,June temperature
+Random split,20,variable,temperature_may_june_c,128,6.184361408179461,165.77532958984375,May–June temperature
+Random split,20,variable,district,128,309.83105036987143,378.9762268066406,District
+Random split,20,group,District,128,309.18304695293534,378.9762268066406,District
+Random split,20,group,Rainfall,128,73.74418012443238,152.348876953125,Rainfall
+Random split,20,group,Temperature,128,35.127783061180885,81.91138458251953,Temperature
+PMFBY (with indicator),20,variable,rainfall_annual_mm,128,60.23192030642629,134.99761962890625,Annual rainfall
+PMFBY (with indicator),20,variable,rainfall_may_mm,128,17.409892990439776,64.43777465820312,May rainfall
+PMFBY (with indicator),20,variable,rainfall_june_mm,128,68.6257456874685,100.21269226074219,June rainfall
+PMFBY (with indicator),20,variable,rainfall_may_june_mm,128,-2.3872244738254524,17.52440643310547,May–June rainfall
+PMFBY (with indicator),20,variable,temperature_annual_c,128,11.933393145887402,148.0433349609375,Annual temperature
+PMFBY (with indicator),20,variable,temperature_may_c,128,-2.698676692094048,31.832881927490234,May temperature
+PMFBY (with indicator),20,variable,temperature_june_c,128,11.253442510863128,129.70965576171875,June temperature
+PMFBY (with indicator),20,variable,temperature_may_june_c,128,4.861195796349492,145.37759399414062,May–June temperature
+PMFBY (with indicator),20,variable,pmfby_policy_era,128,27.44611714483197,41.816978454589844,PMFBY indicator
+PMFBY (with indicator),20,variable,district,128,324.8326865643038,467.1252136230469,District
+PMFBY (with indicator),20,group,District,128,323.45202825267336,467.1252136230469,District
+PMFBY (with indicator),20,group,Rainfall,128,77.03851328048509,144.02334594726562,Rainfall
+PMFBY (with indicator),20,group,Temperature,128,27.793471668905898,120.96758270263672,Temperature
+PMFBY (with indicator),20,group,PMFBY indicator,128,23.55416451638507,41.816978454589844,PMFBY indicator
+Random split,21,variable,rainfall_annual_mm,128,36.32440304804875,112.82544708251953,Annual rainfall
+Random split,21,variable,rainfall_may_mm,128,23.886060822002186,43.70366668701172,May rainfall
+Random split,21,variable,rainfall_june_mm,128,69.74077941938319,80.99851989746094,June rainfall
+Random split,21,variable,rainfall_may_june_mm,128,-2.0134022402569856,71.05394744873047,May–June rainfall
+Random split,21,variable,temperature_annual_c,128,4.149976217131661,81.69364929199219,Annual temperature
+Random split,21,variable,temperature_may_c,128,6.92866233874274,159.79766845703125,May temperature
+Random split,21,variable,temperature_june_c,128,9.348902721439785,27.51923370361328,June temperature
+Random split,21,variable,temperature_may_june_c,128,4.055574170764558,36.839813232421875,May–June temperature
+Random split,21,variable,district,128,314.17171202108887,195.57493591308594,District
+Random split,21,group,District,128,313.5568878014027,195.57493591308594,District
+Random split,21,group,Rainfall,128,51.44390916317828,135.7905731201172,Rainfall
+Random split,21,group,Temperature,128,35.5580611787105,130.0381317138672,Temperature
+PMFBY (with indicator),21,variable,rainfall_annual_mm,128,45.8904660517103,132.3902587890625,Annual rainfall
+PMFBY (with indicator),21,variable,rainfall_may_mm,128,14.867344303951635,49.10295104980469,May rainfall
+PMFBY (with indicator),21,variable,rainfall_june_mm,128,63.546534793842326,99.63855743408203,June rainfall
+PMFBY (with indicator),21,variable,rainfall_may_june_mm,128,-0.3689128011902113,38.286293029785156,May–June rainfall
+PMFBY (with indicator),21,variable,temperature_annual_c,128,3.4516454656412945,97.68168640136719,Annual temperature
+PMFBY (with indicator),21,variable,temperature_may_c,128,8.401877435315464,170.31851196289062,May temperature
+PMFBY (with indicator),21,variable,temperature_june_c,128,8.177136019685,32.72631072998047,June temperature
+PMFBY (with indicator),21,variable,temperature_may_june_c,128,-0.23872712753288283,37.19070816040039,May–June temperature
+PMFBY (with indicator),21,variable,pmfby_policy_era,128,14.74841069885106,87.69677734375,PMFBY indicator
+PMFBY (with indicator),21,variable,district,128,331.81505221436754,119.34498596191406,District
+PMFBY (with indicator),21,group,District,128,331.9569432401398,119.34498596191406,District
+PMFBY (with indicator),21,group,Rainfall,128,43.31499468266643,134.48931884765625,Rainfall
+PMFBY (with indicator),21,group,Temperature,128,29.65447569619122,160.47100830078125,Temperature
+PMFBY (with indicator),21,group,PMFBY indicator,128,17.385238909458376,87.69677734375,PMFBY indicator
+Random split,22,variable,rainfall_annual_mm,128,54.141088712538455,288.2843017578125,Annual rainfall
+Random split,22,variable,rainfall_may_mm,128,56.17183859491647,68.67595672607422,May rainfall
+Random split,22,variable,rainfall_june_mm,128,66.7392671080014,82.19511413574219,June rainfall
+Random split,22,variable,rainfall_may_june_mm,128,2.570561318889901,23.873485565185547,May–June rainfall
+Random split,22,variable,temperature_annual_c,128,7.759223777546893,105.77033996582031,Annual temperature
+Random split,22,variable,temperature_may_c,128,2.2743252555240927,77.8757095336914,May temperature
+Random split,22,variable,temperature_june_c,128,4.07342505232981,46.604331970214844,June temperature
+Random split,22,variable,temperature_may_june_c,128,-0.8774915461814657,51.17261505126953,May–June temperature
+Random split,22,variable,district,128,357.3586144529721,269.554443359375,District
+Random split,22,group,District,128,367.35684328896986,269.554443359375,District
+Random split,22,group,Rainfall,128,117.34968460564635,294.60272216796875,Rainfall
+Random split,22,group,Temperature,128,19.447389473748245,180.87100219726562,Temperature
+PMFBY (with indicator),22,variable,rainfall_annual_mm,128,54.37876483450638,272.15985107421875,Annual rainfall
+PMFBY (with indicator),22,variable,rainfall_may_mm,128,42.49139484549229,74.08065795898438,May rainfall
+PMFBY (with indicator),22,variable,rainfall_june_mm,128,70.87273077117734,84.89295959472656,June rainfall
+PMFBY (with indicator),22,variable,rainfall_may_june_mm,128,3.656209702007479,25.19977569580078,May–June rainfall
+PMFBY (with indicator),22,variable,temperature_annual_c,128,9.83558860826174,120.39186096191406,Annual temperature
+PMFBY (with indicator),22,variable,temperature_may_c,128,-6.491265171133764,41.658905029296875,May temperature
+PMFBY (with indicator),22,variable,temperature_june_c,128,6.031028551223637,56.90425491333008,June temperature
+PMFBY (with indicator),22,variable,temperature_may_june_c,128,3.866788846691867,49.46764373779297,May–June temperature
+PMFBY (with indicator),22,variable,pmfby_policy_era,128,28.44557620028619,80.13117980957031,PMFBY indicator
+PMFBY (with indicator),22,variable,district,128,366.3083491437351,348.84954833984375,District
+PMFBY (with indicator),22,group,District,128,372.7719102700222,348.84954833984375,District
+PMFBY (with indicator),22,group,Rainfall,128,105.65955462642482,254.01644897460938,Rainfall
+PMFBY (with indicator),22,group,Temperature,128,20.88271868866122,146.44735717773438,Temperature
+PMFBY (with indicator),22,group,PMFBY indicator,128,26.03894376570861,80.13117980957031,PMFBY indicator
+Random split,23,variable,rainfall_annual_mm,128,37.64648416440523,163.94436645507812,Annual rainfall
+Random split,23,variable,rainfall_may_mm,128,48.50027783689984,111.1104736328125,May rainfall
+Random split,23,variable,rainfall_june_mm,128,64.52687854283155,63.5128059387207,June rainfall
+Random split,23,variable,rainfall_may_june_mm,128,12.174367847622031,25.455608367919922,May–June rainfall
+Random split,23,variable,temperature_annual_c,128,14.845626454205837,107.82149505615234,Annual temperature
+Random split,23,variable,temperature_may_c,128,-1.5102373654517038,64.74661254882812,May temperature
+Random split,23,variable,temperature_june_c,128,13.010554565206172,46.2032470703125,June temperature
+Random split,23,variable,temperature_may_june_c,128,8.626809546254146,60.26237487792969,May–June temperature
+Random split,23,variable,district,128,339.466288106333,224.1250457763672,District
+Random split,23,group,District,128,337.9495688389401,224.1250457763672,District
+Random split,23,group,Rainfall,128,93.85877216519496,220.76309204101562,Rainfall
+Random split,23,group,Temperature,128,37.609415482516276,174.43289184570312,Temperature
+PMFBY (with indicator),23,variable,rainfall_annual_mm,128,44.02137007831126,139.11289978027344,Annual rainfall
+PMFBY (with indicator),23,variable,rainfall_may_mm,128,37.51895678563555,114.92108917236328,May rainfall
+PMFBY (with indicator),23,variable,rainfall_june_mm,128,80.95599241679267,73.78837585449219,June rainfall
+PMFBY (with indicator),23,variable,rainfall_may_june_mm,128,5.532563809149255,25.203384399414062,May–June rainfall
+PMFBY (with indicator),23,variable,temperature_annual_c,128,25.494355953500964,142.0268096923828,Annual temperature
+PMFBY (with indicator),23,variable,temperature_may_c,128,-6.523036283314568,27.606727600097656,May temperature
+PMFBY (with indicator),23,variable,temperature_june_c,128,12.694690512749606,39.955284118652344,June temperature
+PMFBY (with indicator),23,variable,temperature_may_june_c,128,3.0443340950722386,40.21296310424805,May–June temperature
+PMFBY (with indicator),23,variable,pmfby_policy_era,128,14.617894126753956,122.23950958251953,PMFBY indicator
+PMFBY (with indicator),23,variable,district,128,367.35308024228505,251.75279235839844,District
+PMFBY (with indicator),23,group,District,128,364.00764458835954,251.75279235839844,District
+PMFBY (with indicator),23,group,Rainfall,128,85.96560947089836,180.09228515625,Rainfall
+PMFBY (with indicator),23,group,Temperature,128,40.66660851652158,169.93630981445312,Temperature
+PMFBY (with indicator),23,group,PMFBY indicator,128,16.38803857055177,122.23950958251953,PMFBY indicator
+Random split,24,variable,rainfall_annual_mm,128,50.06488927241644,112.53423309326172,Annual rainfall
+Random split,24,variable,rainfall_may_mm,128,21.64710282524435,129.29054260253906,May rainfall
+Random split,24,variable,rainfall_june_mm,128,52.58523508955459,147.98284912109375,June rainfall
+Random split,24,variable,rainfall_may_june_mm,128,0.8261807582267522,41.055946350097656,May–June rainfall
+Random split,24,variable,temperature_annual_c,128,11.06864186707054,61.461463928222656,Annual temperature
+Random split,24,variable,temperature_may_c,128,5.510384988158796,52.59785461425781,May temperature
+Random split,24,variable,temperature_june_c,128,13.208081677217,86.63839721679688,June temperature
+Random split,24,variable,temperature_may_june_c,128,0.34993472945247106,71.37362670898438,May–June temperature
+Random split,24,variable,district,128,272.78702520817393,165.57406616210938,District
+Random split,24,group,District,128,286.5327960815386,165.57406616210938,District
+Random split,24,group,Rainfall,128,57.68141001790245,239.76351928710938,Rainfall
+Random split,24,group,Temperature,128,27.025816544676434,135.76065063476562,Temperature
+PMFBY (with indicator),24,variable,rainfall_annual_mm,128,56.743069707390546,83.28367614746094,Annual rainfall
+PMFBY (with indicator),24,variable,rainfall_may_mm,128,19.260574215022825,104.38258361816406,May rainfall
+PMFBY (with indicator),24,variable,rainfall_june_mm,128,64.78909494749598,110.39635467529297,June rainfall
+PMFBY (with indicator),24,variable,rainfall_may_june_mm,128,3.0524254017087458,33.1759033203125,May–June rainfall
+PMFBY (with indicator),24,variable,temperature_annual_c,128,19.885643624623857,116.4544448852539,Annual temperature
+PMFBY (with indicator),24,variable,temperature_may_c,128,2.8050385965442333,44.315704345703125,May temperature
+PMFBY (with indicator),24,variable,temperature_june_c,128,8.77786849151028,64.82386779785156,June temperature
+PMFBY (with indicator),24,variable,temperature_may_june_c,128,2.3789905291057947,55.723690032958984,May–June temperature
+PMFBY (with indicator),24,variable,pmfby_policy_era,128,25.52233467690094,116.33094787597656,PMFBY indicator
+PMFBY (with indicator),24,variable,district,128,288.8031030365136,125.66659545898438,District
+PMFBY (with indicator),24,group,District,128,300.4998427182794,125.66659545898438,District
+PMFBY (with indicator),24,group,Rainfall,128,64.4075517532256,136.2022705078125,Rainfall
+PMFBY (with indicator),24,group,Temperature,128,29.120729392698564,80.8956298828125,Temperature
+PMFBY (with indicator),24,group,PMFBY indicator,128,19.434419670891096,116.33094787597656,PMFBY indicator
+Random split,25,variable,rainfall_annual_mm,128,65.60186082853465,294.0929870605469,Annual rainfall
+Random split,25,variable,rainfall_may_mm,128,56.126754320619966,71.7484130859375,May rainfall
+Random split,25,variable,rainfall_june_mm,128,67.1369396903614,104.41881561279297,June rainfall
+Random split,25,variable,rainfall_may_june_mm,128,0.24134834235672428,30.45029067993164,May–June rainfall
+Random split,25,variable,temperature_annual_c,128,25.872115224595937,69.73300170898438,Annual temperature
+Random split,25,variable,temperature_may_c,128,-3.251386776434006,20.169742584228516,May temperature
+Random split,25,variable,temperature_june_c,128,3.5044242919530917,75.67521667480469,June temperature
+Random split,25,variable,temperature_may_june_c,128,0.10470187686703128,48.26862335205078,May–June temperature
+Random split,25,variable,district,128,339.7457518616359,251.3097686767578,District
+Random split,25,group,District,128,343.1301287918896,251.3097686767578,District
+Random split,25,group,Rainfall,128,92.83419668759814,294.87335205078125,Rainfall
+Random split,25,group,Temperature,128,34.871393830291424,95.9404296875,Temperature
+PMFBY (with indicator),25,variable,rainfall_annual_mm,128,68.81076044034963,235.90257263183594,Annual rainfall
+PMFBY (with indicator),25,variable,rainfall_may_mm,128,43.16654341734321,77.36654663085938,May rainfall
+PMFBY (with indicator),25,variable,rainfall_june_mm,128,76.848605236908,68.01933288574219,June rainfall
+PMFBY (with indicator),25,variable,rainfall_may_june_mm,128,1.6664630396611018,14.12858772277832,May–June rainfall
+PMFBY (with indicator),25,variable,temperature_annual_c,128,22.72583833348943,99.20967102050781,Annual temperature
+PMFBY (with indicator),25,variable,temperature_may_c,128,-0.9920567192602618,37.310157775878906,May temperature
+PMFBY (with indicator),25,variable,temperature_june_c,128,4.372614037511946,81.46934509277344,June temperature
+PMFBY (with indicator),25,variable,temperature_may_june_c,128,3.399454270664907,19.63721466064453,May–June temperature
+PMFBY (with indicator),25,variable,pmfby_policy_era,128,24.233140395451336,180.2166748046875,PMFBY indicator
+PMFBY (with indicator),25,variable,district,128,368.2485053605932,305.02777099609375,District
+PMFBY (with indicator),25,group,District,128,371.5424852188403,305.02777099609375,District
+PMFBY (with indicator),25,group,Rainfall,128,91.6462123708333,278.02703857421875,Rainfall
+PMFBY (with indicator),25,group,Temperature,128,36.415131681628694,92.96127319335938,Temperature
+PMFBY (with indicator),25,group,PMFBY indicator,128,23.771748783367183,180.2166748046875,PMFBY indicator
+Random split,26,variable,rainfall_annual_mm,128,24.550234842974028,203.73731994628906,Annual rainfall
+Random split,26,variable,rainfall_may_mm,128,28.33329051361135,74.05034637451172,May rainfall
+Random split,26,variable,rainfall_june_mm,128,86.92874020719611,67.05174255371094,June rainfall
+Random split,26,variable,rainfall_may_june_mm,128,-0.8677498774225313,27.675495147705078,May–June rainfall
+Random split,26,variable,temperature_annual_c,128,20.1323183270315,123.10379028320312,Annual temperature
+Random split,26,variable,temperature_may_c,128,4.965187325995553,30.80779266357422,May temperature
+Random split,26,variable,temperature_june_c,128,2.591240563889477,67.60628509521484,June temperature
+Random split,26,variable,temperature_may_june_c,128,-1.3460899513627624,69.76262664794922,May–June temperature
+Random split,26,variable,district,128,320.75399068249754,150.39126586914062,District
+Random split,26,group,District,128,330.2509417232587,150.39126586914062,District
+Random split,26,group,Rainfall,128,67.33448272902079,174.0476531982422,Rainfall
+Random split,26,group,Temperature,128,29.526380042338396,141.60279846191406,Temperature
+PMFBY (with indicator),26,variable,rainfall_annual_mm,128,28.809723706338197,225.20867919921875,Annual rainfall
+PMFBY (with indicator),26,variable,rainfall_may_mm,128,15.823860413347072,73.4173583984375,May rainfall
+PMFBY (with indicator),26,variable,rainfall_june_mm,128,78.18383398030657,62.60772705078125,June rainfall
+PMFBY (with indicator),26,variable,rainfall_may_june_mm,128,1.6896895588812755,12.241052627563477,May–June rainfall
+PMFBY (with indicator),26,variable,temperature_annual_c,128,13.353667517136623,159.71994018554688,Annual temperature
+PMFBY (with indicator),26,variable,temperature_may_c,128,2.3871713070455,30.20255470275879,May temperature
+PMFBY (with indicator),26,variable,temperature_june_c,128,3.514147976633063,100.77111053466797,June temperature
+PMFBY (with indicator),26,variable,temperature_may_june_c,128,-0.21042081694494924,42.2647590637207,May–June temperature
+PMFBY (with indicator),26,variable,pmfby_policy_era,128,10.77717271109689,109.56439208984375,PMFBY indicator
+PMFBY (with indicator),26,variable,district,128,333.3783703911142,149.1182861328125,District
+PMFBY (with indicator),26,group,District,128,341.24410089077827,149.1182861328125,District
+PMFBY (with indicator),26,group,Rainfall,128,55.118112531912686,184.79803466796875,Rainfall
+PMFBY (with indicator),26,group,Temperature,128,18.872661151117324,139.536865234375,Temperature
+PMFBY (with indicator),26,group,PMFBY indicator,128,10.14476658541104,109.56439208984375,PMFBY indicator
+Random split,27,variable,rainfall_annual_mm,128,55.94141067991861,269.796142578125,Annual rainfall
+Random split,27,variable,rainfall_may_mm,128,44.840226776875696,67.59718322753906,May rainfall
+Random split,27,variable,rainfall_june_mm,128,89.4650637531417,93.86387634277344,June rainfall
+Random split,27,variable,rainfall_may_june_mm,128,0.3393513968961571,36.50142288208008,May–June rainfall
+Random split,27,variable,temperature_annual_c,128,15.450768709825258,122.39199829101562,Annual temperature
+Random split,27,variable,temperature_may_c,128,2.5945574177200172,56.81446075439453,May temperature
+Random split,27,variable,temperature_june_c,128,10.09145312298707,56.4827880859375,June temperature
+Random split,27,variable,temperature_may_june_c,128,1.1970055820704544,89.46782684326172,May–June temperature
+Random split,27,variable,district,128,323.88825895334287,177.84361267089844,District
+Random split,27,group,District,128,325.24907111913825,177.84361267089844,District
+Random split,27,group,Rainfall,128,80.04045550048174,282.7958984375,Rainfall
+Random split,27,group,Temperature,128,46.64777200972459,189.31594848632812,Temperature
+PMFBY (with indicator),27,variable,rainfall_annual_mm,128,58.45594188260232,210.1856689453125,Annual rainfall
+PMFBY (with indicator),27,variable,rainfall_may_mm,128,41.40037283080079,69.3108901977539,May rainfall
+PMFBY (with indicator),27,variable,rainfall_june_mm,128,94.4597513605531,87.62632751464844,June rainfall
+PMFBY (with indicator),27,variable,rainfall_may_june_mm,128,-1.605403508531856,9.22688102722168,May–June rainfall
+PMFBY (with indicator),27,variable,temperature_annual_c,128,19.926835539600127,146.26708984375,Annual temperature
+PMFBY (with indicator),27,variable,temperature_may_c,128,0.8722514977453983,22.78969955444336,May temperature
+PMFBY (with indicator),27,variable,temperature_june_c,128,7.8798337528340685,55.90720748901367,June temperature
+PMFBY (with indicator),27,variable,temperature_may_june_c,128,-0.6100393913731722,46.70398712158203,May–June temperature
+PMFBY (with indicator),27,variable,pmfby_policy_era,128,34.14900658786119,189.3380584716797,PMFBY indicator
+PMFBY (with indicator),27,variable,district,128,334.6112411358369,161.28106689453125,District
+PMFBY (with indicator),27,group,District,128,336.5879218545839,161.28106689453125,District
+PMFBY (with indicator),27,group,Rainfall,128,71.68935486806939,173.0354461669922,Rainfall
+PMFBY (with indicator),27,group,Temperature,128,34.499660374243476,128.43392944335938,Temperature
+PMFBY (with indicator),27,group,PMFBY indicator,128,31.420330336836138,189.3380584716797,PMFBY indicator
+Random split,28,variable,rainfall_annual_mm,128,34.252445842957115,179.05508422851562,Annual rainfall
+Random split,28,variable,rainfall_may_mm,128,32.40897593742362,136.3887939453125,May rainfall
+Random split,28,variable,rainfall_june_mm,128,49.90612589732979,178.97720336914062,June rainfall
+Random split,28,variable,rainfall_may_june_mm,128,0.5754532694533708,34.077392578125,May–June rainfall
+Random split,28,variable,temperature_annual_c,128,15.17859686744732,98.31219482421875,Annual temperature
+Random split,28,variable,temperature_may_c,128,-9.271225528686097,52.551239013671875,May temperature
+Random split,28,variable,temperature_june_c,128,-1.3123518179350384,49.00151824951172,June temperature
+Random split,28,variable,temperature_may_june_c,128,21.058290226391158,198.9183349609375,May–June temperature
+Random split,28,variable,district,128,379.0525089054738,552.783203125,District
+Random split,28,group,District,128,383.1432053554257,552.783203125,District
+Random split,28,group,Rainfall,128,71.44764081654628,383.13580322265625,Rainfall
+Random split,28,group,Temperature,128,40.790928806383995,330.11474609375,Temperature
+PMFBY (with indicator),28,variable,rainfall_annual_mm,128,36.01652893678284,199.25094604492188,Annual rainfall
+PMFBY (with indicator),28,variable,rainfall_may_mm,128,28.980247069393602,73.09931182861328,May rainfall
+PMFBY (with indicator),28,variable,rainfall_june_mm,128,57.79661062745638,145.71975708007812,June rainfall
+PMFBY (with indicator),28,variable,rainfall_may_june_mm,128,-0.3274918871404708,29.869152069091797,May–June rainfall
+PMFBY (with indicator),28,variable,temperature_annual_c,128,12.287217296890637,110.78864288330078,Annual temperature
+PMFBY (with indicator),28,variable,temperature_may_c,128,-6.316042931086545,48.56675720214844,May temperature
+PMFBY (with indicator),28,variable,temperature_june_c,128,2.155411656791094,40.38782501220703,June temperature
+PMFBY (with indicator),28,variable,temperature_may_june_c,128,11.591454833983695,86.66371154785156,May–June temperature
+PMFBY (with indicator),28,variable,pmfby_policy_era,128,15.134880510764228,126.06013488769531,PMFBY indicator
+PMFBY (with indicator),28,variable,district,128,391.3286203282412,360.8936767578125,District
+PMFBY (with indicator),28,group,District,128,398.60074722577014,360.8936767578125,District
+PMFBY (with indicator),28,group,Rainfall,128,71.39760743965978,265.717529296875,Rainfall
+PMFBY (with indicator),28,group,Temperature,128,32.35491129279579,176.23257446289062,Temperature
+PMFBY (with indicator),28,group,PMFBY indicator,128,10.684007028531488,126.06013488769531,PMFBY indicator
+Random split,29,variable,rainfall_annual_mm,128,64.0413195140068,120.14849853515625,Annual rainfall
+Random split,29,variable,rainfall_may_mm,128,33.70565626086664,96.64350128173828,May rainfall
+Random split,29,variable,rainfall_june_mm,128,73.77771216208713,67.32402038574219,June rainfall
+Random split,29,variable,rainfall_may_june_mm,128,6.029341758019603,27.9691104888916,May–June rainfall
+Random split,29,variable,temperature_annual_c,128,12.442071756683784,79.26042938232422,Annual temperature
+Random split,29,variable,temperature_may_c,128,2.417073541539267,97.3000717163086,May temperature
+Random split,29,variable,temperature_june_c,128,21.08229647952476,45.44219970703125,June temperature
+Random split,29,variable,temperature_may_june_c,128,-2.6014677690833254,56.9566764831543,May–June temperature
+Random split,29,variable,district,128,312.9262448776746,213.00454711914062,District
+Random split,29,group,District,128,312.84986279982553,213.00454711914062,District
+Random split,29,group,Rainfall,128,64.37689663156564,191.25665283203125,Rainfall
+Random split,29,group,Temperature,128,31.139623487638225,118.35969543457031,Temperature
+PMFBY (with indicator),29,variable,rainfall_annual_mm,128,62.3161367688614,93.92070007324219,Annual rainfall
+PMFBY (with indicator),29,variable,rainfall_may_mm,128,16.503572092914858,79.01274108886719,May rainfall
+PMFBY (with indicator),29,variable,rainfall_june_mm,128,86.31287456789455,86.51708984375,June rainfall
+PMFBY (with indicator),29,variable,rainfall_may_june_mm,128,2.359829373651928,41.98249435424805,May–June rainfall
+PMFBY (with indicator),29,variable,temperature_annual_c,128,14.954542256672658,64.81620788574219,Annual temperature
+PMFBY (with indicator),29,variable,temperature_may_c,128,3.024608041838687,29.660385131835938,May temperature
+PMFBY (with indicator),29,variable,temperature_june_c,128,17.8033012713091,66.95358276367188,June temperature
+PMFBY (with indicator),29,variable,temperature_may_june_c,128,-4.232572333545425,52.402915954589844,May–June temperature
+PMFBY (with indicator),29,variable,pmfby_policy_era,128,16.171289176516005,102.05046844482422,PMFBY indicator
+PMFBY (with indicator),29,variable,district,128,309.0941690705911,118.33291625976562,District
+PMFBY (with indicator),29,group,District,128,310.5726056064132,118.33291625976562,District
+PMFBY (with indicator),29,group,Rainfall,128,52.2761688228645,126.62939453125,Rainfall
+PMFBY (with indicator),29,group,Temperature,128,27.70167980132849,92.65321350097656,Temperature
+PMFBY (with indicator),29,group,PMFBY indicator,128,14.055463666873223,102.05046844482422,PMFBY indicator
+Walk-forward,2010,variable,rainfall_annual_mm,26,48.25129934627353,139.1905059814453,Annual rainfall
+Walk-forward,2010,variable,rainfall_may_mm,26,12.136525436244431,31.939573287963867,May rainfall
+Walk-forward,2010,variable,rainfall_june_mm,26,74.61292785323863,47.822059631347656,June rainfall
+Walk-forward,2010,variable,rainfall_may_june_mm,26,-6.031500948392406,32.77891540527344,May–June rainfall
+Walk-forward,2010,variable,temperature_annual_c,26,-6.998291839615632,241.74172973632812,Annual temperature
+Walk-forward,2010,variable,temperature_may_c,26,-17.728776954430224,16.562442779541016,May temperature
+Walk-forward,2010,variable,temperature_june_c,26,11.876136419259193,83.88623046875,June temperature
+Walk-forward,2010,variable,temperature_may_june_c,26,4.284351582903875,1.9789395332336426,May–June temperature
+Walk-forward,2010,variable,district,26,287.87187414695643,438.86181640625,District
+Walk-forward,2010,group,District,26,302.11534470368457,438.86181640625,District
+Walk-forward,2010,group,Rainfall,26,67.57933408624731,204.27711486816406,Rainfall
+Walk-forward,2010,group,Temperature,26,18.663822135095355,209.2421875,Temperature
+Walk-forward,2011,variable,rainfall_annual_mm,27,105.82023641294779,241.35894775390625,Annual rainfall
+Walk-forward,2011,variable,rainfall_may_mm,27,32.244708464651346,31.026607513427734,May rainfall
+Walk-forward,2011,variable,rainfall_june_mm,27,63.14238875322911,47.34581756591797,June rainfall
+Walk-forward,2011,variable,rainfall_may_june_mm,27,4.932971831798094,40.52534866333008,May–June rainfall
+Walk-forward,2011,variable,temperature_annual_c,27,39.38759361550642,123.46802520751953,Annual temperature
+Walk-forward,2011,variable,temperature_may_c,27,-7.717375391688404,12.52825927734375,May temperature
+Walk-forward,2011,variable,temperature_june_c,27,18.714614099495922,108.79381561279297,June temperature
+Walk-forward,2011,variable,temperature_may_june_c,27,6.99530347841357,11.607990264892578,May–June temperature
+Walk-forward,2011,variable,district,27,288.0008411223342,293.12200927734375,District
+Walk-forward,2011,group,District,27,281.61997635567366,293.12200927734375,District
+Walk-forward,2011,group,Rainfall,27,87.70469064033657,281.39544677734375,Rainfall
+Walk-forward,2011,group,Temperature,27,58.96263283095253,94.56098175048828,Temperature
+Walk-forward,2012,variable,rainfall_annual_mm,27,114.7257673899837,159.82861328125,Annual rainfall
+Walk-forward,2012,variable,rainfall_may_mm,27,3.7842163561556434,112.68598175048828,May rainfall
+Walk-forward,2012,variable,rainfall_june_mm,27,45.805713161785114,161.0823974609375,June rainfall
+Walk-forward,2012,variable,rainfall_may_june_mm,27,14.437670824443163,88.88607788085938,May–June rainfall
+Walk-forward,2012,variable,temperature_annual_c,27,4.644470394704243,193.1062774658203,Annual temperature
+Walk-forward,2012,variable,temperature_may_c,27,8.839471661603023,75.45531463623047,May temperature
+Walk-forward,2012,variable,temperature_june_c,27,-4.718359126738241,93.14229583740234,June temperature
+Walk-forward,2012,variable,temperature_may_june_c,27,-5.630012455692986,8.88237476348877,May–June temperature
+Walk-forward,2012,variable,district,27,319.54482318220124,351.0479736328125,District
+Walk-forward,2012,group,District,27,321.40918682936257,351.0479736328125,District
+Walk-forward,2012,group,Rainfall,27,84.12064738565236,228.6819305419922,Rainfall
+Walk-forward,2012,group,Temperature,27,-0.32421134207737057,185.81680297851562,Temperature
+Walk-forward,2013,variable,rainfall_annual_mm,27,56.307222095194916,119.40452575683594,Annual rainfall
+Walk-forward,2013,variable,rainfall_may_mm,27,22.71132758313015,47.276248931884766,May rainfall
+Walk-forward,2013,variable,rainfall_june_mm,27,36.353766053606954,67.66817474365234,June rainfall
+Walk-forward,2013,variable,rainfall_may_june_mm,27,-0.4850484416143502,84.78723907470703,May–June rainfall
+Walk-forward,2013,variable,temperature_annual_c,27,14.229726085116024,165.11988830566406,Annual temperature
+Walk-forward,2013,variable,temperature_may_c,27,4.173276363454252,60.97636032104492,May temperature
+Walk-forward,2013,variable,temperature_june_c,27,-4.817638818058976,141.2889404296875,June temperature
+Walk-forward,2013,variable,temperature_may_june_c,27,1.3818605776186472,4.041713237762451,May–June temperature
+Walk-forward,2013,variable,district,27,183.4331257050667,356.65728759765625,District
+Walk-forward,2013,group,District,27,183.5450681520494,356.65728759765625,District
+Walk-forward,2013,group,Rainfall,27,79.39266578460212,105.03124237060547,Rainfall
+Walk-forward,2013,group,Temperature,27,18.260926323306435,243.78086853027344,Temperature
+Walk-forward,2014,variable,rainfall_annual_mm,27,101.10620198255756,189.09182739257812,Annual rainfall
+Walk-forward,2014,variable,rainfall_may_mm,27,26.51733998251269,55.03146743774414,May rainfall
+Walk-forward,2014,variable,rainfall_june_mm,27,50.29879643462907,95.62222290039062,June rainfall
+Walk-forward,2014,variable,rainfall_may_june_mm,27,4.132729311342587,39.954463958740234,May–June rainfall
+Walk-forward,2014,variable,temperature_annual_c,27,23.106574933970126,139.26687622070312,Annual temperature
+Walk-forward,2014,variable,temperature_may_c,27,11.65948250563354,148.85943603515625,May temperature
+Walk-forward,2014,variable,temperature_june_c,27,-3.046006133131067,75.37327575683594,June temperature
+Walk-forward,2014,variable,temperature_may_june_c,27,9.570304139453961,9.447090148925781,May–June temperature
+Walk-forward,2014,variable,district,27,271.03528655854836,268.80572509765625,District
+Walk-forward,2014,group,District,27,295.40217405200167,268.80572509765625,District
+Walk-forward,2014,group,Rainfall,27,78.30793059985474,139.0796661376953,Rainfall
+Walk-forward,2014,group,Temperature,27,51.04554962617415,150.21893310546875,Temperature
+Walk-forward,2015,variable,rainfall_annual_mm,27,101.5502837168772,180.2291717529297,Annual rainfall
+Walk-forward,2015,variable,rainfall_may_mm,27,20.531844998697103,55.201271057128906,May rainfall
+Walk-forward,2015,variable,rainfall_june_mm,27,97.30191812853931,84.39273071289062,June rainfall
+Walk-forward,2015,variable,rainfall_may_june_mm,27,0.8001738965047366,55.006126403808594,May–June rainfall
+Walk-forward,2015,variable,temperature_annual_c,27,22.60017745833317,152.8423614501953,Annual temperature
+Walk-forward,2015,variable,temperature_may_c,27,9.153694861407894,31.00484275817871,May temperature
+Walk-forward,2015,variable,temperature_june_c,27,10.220503440353708,66.6958999633789,June temperature
+Walk-forward,2015,variable,temperature_may_june_c,27,20.745640083932322,110.12345123291016,May–June temperature
+Walk-forward,2015,variable,district,27,388.57657876886407,144.77642822265625,District
+Walk-forward,2015,group,District,27,388.89446939404695,144.77642822265625,District
+Walk-forward,2015,group,Rainfall,27,167.88163473820157,176.62782287597656,Rainfall
+Walk-forward,2015,group,Temperature,27,57.52734463213725,130.75917053222656,Temperature
+Walk-forward,2016,variable,rainfall_annual_mm,27,92.85237398933413,232.3645477294922,Annual rainfall
+Walk-forward,2016,variable,rainfall_may_mm,27,-8.23644851761891,52.1558837890625,May rainfall
+Walk-forward,2016,variable,rainfall_june_mm,27,85.64358313373559,60.66570281982422,June rainfall
+Walk-forward,2016,variable,rainfall_may_june_mm,27,15.990261845879335,70.84241485595703,May–June rainfall
+Walk-forward,2016,variable,temperature_annual_c,27,-1.4113023710638886,195.24713134765625,Annual temperature
+Walk-forward,2016,variable,temperature_may_c,27,-8.947623244744346,70.76213836669922,May temperature
+Walk-forward,2016,variable,temperature_june_c,27,4.104668584151733,94.66423797607422,June temperature
+Walk-forward,2016,variable,temperature_may_june_c,27,34.19541117297608,122.97455596923828,May–June temperature
+Walk-forward,2016,variable,district,27,332.99551265391193,216.0931396484375,District
+Walk-forward,2016,group,District,27,361.84535404512553,216.0931396484375,District
+Walk-forward,2016,group,Rainfall,27,82.4627611253927,190.666015625,Rainfall
+Walk-forward,2016,group,Temperature,27,32.31693116926183,204.34561157226562,Temperature
+Walk-forward,2017,variable,rainfall_annual_mm,26,20.88326084516508,75.53008270263672,Annual rainfall
+Walk-forward,2017,variable,rainfall_may_mm,26,-10.90013029330564,74.54832458496094,May rainfall
+Walk-forward,2017,variable,rainfall_june_mm,26,74.45517332519262,80.66856384277344,June rainfall
+Walk-forward,2017,variable,rainfall_may_june_mm,26,1.698149802555821,71.51773834228516,May–June rainfall
+Walk-forward,2017,variable,temperature_annual_c,26,-17.05118836834798,140.16806030273438,Annual temperature
+Walk-forward,2017,variable,temperature_may_c,26,2.6232833096248553,55.59446334838867,May temperature
+Walk-forward,2017,variable,temperature_june_c,26,0.6756135459750823,35.77648162841797,June temperature
+Walk-forward,2017,variable,temperature_may_june_c,26,24.50809443784297,120.42402648925781,May–June temperature
+Walk-forward,2017,variable,district,26,241.41922569449252,212.9510040283203,District
+Walk-forward,2017,group,District,26,221.3567815548522,212.9510040283203,District
+Walk-forward,2017,group,Rainfall,26,55.12845585461325,160.70982360839844,Rainfall
+Walk-forward,2017,group,Temperature,26,32.590023515103766,174.34579467773438,Temperature
+Walk-forward,2018,variable,rainfall_annual_mm,27,54.24589742985372,189.28318786621094,Annual rainfall
+Walk-forward,2018,variable,rainfall_may_mm,27,31.80857875345783,57.25272750854492,May rainfall
+Walk-forward,2018,variable,rainfall_june_mm,27,23.619098132620845,70.74799346923828,June rainfall
+Walk-forward,2018,variable,rainfall_may_june_mm,27,4.740304222964511,82.69095611572266,May–June rainfall
+Walk-forward,2018,variable,temperature_annual_c,27,-0.8165045134614786,145.4581298828125,Annual temperature
+Walk-forward,2018,variable,temperature_may_c,27,-4.475596550478622,65.8934555053711,May temperature
+Walk-forward,2018,variable,temperature_june_c,27,10.24874611316181,8.79301643371582,June temperature
+Walk-forward,2018,variable,temperature_may_june_c,27,10.585760518758232,138.18588256835938,May–June temperature
+Walk-forward,2018,variable,district,27,299.89701996965607,365.788330078125,District
+Walk-forward,2018,group,District,27,319.7786021283992,365.788330078125,District
+Walk-forward,2018,group,Rainfall,27,92.53875547394418,203.0659942626953,Rainfall
+Walk-forward,2018,group,Temperature,27,13.382606328780051,237.34466552734375,Temperature
+Walk-forward,2019,variable,rainfall_annual_mm,27,33.57897740564056,130.25753784179688,Annual rainfall
+Walk-forward,2019,variable,rainfall_may_mm,27,22.126941934201334,78.33761596679688,May rainfall
+Walk-forward,2019,variable,rainfall_june_mm,27,4.02761084855822,138.14202880859375,June rainfall
+Walk-forward,2019,variable,rainfall_may_june_mm,27,1.7650229393060983,19.155349731445312,May–June rainfall
+Walk-forward,2019,variable,temperature_annual_c,27,36.15160700440455,115.19998168945312,Annual temperature
+Walk-forward,2019,variable,temperature_may_c,27,58.903267618449924,162.8436737060547,May temperature
+Walk-forward,2019,variable,temperature_june_c,27,-1.1560918090225698,55.117366790771484,June temperature
+Walk-forward,2019,variable,temperature_may_june_c,27,0.3946193488212117,110.4427261352539,May–June temperature
+Walk-forward,2019,variable,district,27,229.9105680436643,540.5791625976562,District
+Walk-forward,2019,group,District,27,263.9985841911067,540.5791625976562,District
+Walk-forward,2019,group,Rainfall,27,57.144060347230756,230.74742126464844,Rainfall
+Walk-forward,2019,group,Temperature,27,41.97049115235649,238.1854705810547,Temperature
+Walk-forward,2020,variable,rainfall_annual_mm,27,18.767879862505488,92.45610046386719,Annual rainfall
+Walk-forward,2020,variable,rainfall_may_mm,27,7.679744686841312,65.46231079101562,May rainfall
+Walk-forward,2020,variable,rainfall_june_mm,27,47.811871073482465,133.4710693359375,June rainfall
+Walk-forward,2020,variable,rainfall_may_june_mm,27,-2.5464912370758213,22.282699584960938,May–June rainfall
+Walk-forward,2020,variable,temperature_annual_c,27,-5.8580337122253665,118.35779571533203,Annual temperature
+Walk-forward,2020,variable,temperature_may_c,27,22.499158799151946,92.32552337646484,May temperature
+Walk-forward,2020,variable,temperature_june_c,27,13.808003579481039,50.28041458129883,June temperature
+Walk-forward,2020,variable,temperature_may_june_c,27,25.469449744681185,135.90164184570312,May–June temperature
+Walk-forward,2020,variable,district,27,258.9330740176878,325.7400817871094,District
+Walk-forward,2020,group,District,27,292.95775696672746,325.7400817871094,District
+Walk-forward,2020,group,Rainfall,27,46.429724462939014,229.91444396972656,Rainfall
+Walk-forward,2020,group,Temperature,27,46.16761509257963,242.19207763671875,Temperature
+Walk-forward,2021,variable,rainfall_annual_mm,27,17.173698021710685,247.48580932617188,Annual rainfall
+Walk-forward,2021,variable,rainfall_may_mm,27,-24.847133071100604,38.55302047729492,May rainfall
+Walk-forward,2021,variable,rainfall_june_mm,27,6.739449311721455,38.31269073486328,June rainfall
+Walk-forward,2021,variable,rainfall_may_june_mm,27,-5.253608655460735,66.87157440185547,May–June rainfall
+Walk-forward,2021,variable,temperature_annual_c,27,-19.54370849203459,111.71819305419922,Annual temperature
+Walk-forward,2021,variable,temperature_may_c,27,-0.609884594583096,71.24667358398438,May temperature
+Walk-forward,2021,variable,temperature_june_c,27,16.220231270539504,55.19234085083008,June temperature
+Walk-forward,2021,variable,temperature_may_june_c,27,14.926220741246087,102.23444366455078,May–June temperature
+Walk-forward,2021,variable,district,27,199.40725592905122,347.7759704589844,District
+Walk-forward,2021,group,District,27,243.67174704815352,347.7759704589844,District
+Walk-forward,2021,group,Rainfall,27,-33.10613375118151,286.1854248046875,Rainfall
+Walk-forward,2021,group,Temperature,27,15.148768299487987,274.0227966308594,Temperature
+Walk-forward,2022,variable,rainfall_annual_mm,27,16.707726477023794,167.83035278320312,Annual rainfall
+Walk-forward,2022,variable,rainfall_may_mm,27,-30.1626216779394,85.67789459228516,May rainfall
+Walk-forward,2022,variable,rainfall_june_mm,27,60.53972183825764,40.95647048950195,June rainfall
+Walk-forward,2022,variable,rainfall_may_june_mm,27,1.2719873501307064,45.96710968017578,May–June rainfall
+Walk-forward,2022,variable,temperature_annual_c,27,-11.101068876254853,91.58203887939453,Annual temperature
+Walk-forward,2022,variable,temperature_may_c,27,-2.2886490486029087,49.86665725708008,May temperature
+Walk-forward,2022,variable,temperature_june_c,27,15.983997483746617,20.408668518066406,June temperature
+Walk-forward,2022,variable,temperature_may_june_c,27,22.22572318296398,38.25723648071289,May–June temperature
+Walk-forward,2022,variable,district,27,301.27395003981934,331.3200378417969,District
+Walk-forward,2022,group,District,27,346.4680589079868,331.3200378417969,District
+Walk-forward,2022,group,Rainfall,27,15.322954855718388,168.2780303955078,Rainfall
+Walk-forward,2022,group,Temperature,27,20.129813668141846,135.51596069335938,Temperature
+Walk-forward,2023,variable,rainfall_annual_mm,27,66.02907854378618,272.72174072265625,Annual rainfall
+Walk-forward,2023,variable,rainfall_may_mm,27,-2.2425677337174106,64.61730194091797,May rainfall
+Walk-forward,2023,variable,rainfall_june_mm,27,64.93685366377858,88.61817932128906,June rainfall
+Walk-forward,2023,variable,rainfall_may_june_mm,27,-2.2748198628560887,47.217918395996094,May–June rainfall
+Walk-forward,2023,variable,temperature_annual_c,27,1.3785096636871317,181.95326232910156,Annual temperature
+Walk-forward,2023,variable,temperature_may_c,27,2.752263342928893,36.97403335571289,May temperature
+Walk-forward,2023,variable,temperature_june_c,27,-2.24068445276329,38.672176361083984,June temperature
+Walk-forward,2023,variable,temperature_may_june_c,27,13.368595221230743,51.976226806640625,May–June temperature
+Walk-forward,2023,variable,district,27,348.69567397354865,397.69842529296875,District
+Walk-forward,2023,group,District,27,384.76163079802893,397.69842529296875,District
+Walk-forward,2023,group,Rainfall,27,10.944561444558122,312.5995788574219,Rainfall
+Walk-forward,2023,group,Temperature,27,17.89915977889806,128.20114135742188,Temperature
+Irrigation (with group),0,variable,rainfall_annual_mm,16,1.6626125980644388,120.54849243164062,Annual rainfall
+Irrigation (with group),0,variable,rainfall_may_mm,16,-23.204063407792155,100.6148910522461,May rainfall
+Irrigation (with group),0,variable,rainfall_june_mm,16,-1.7693170841569468,58.266536712646484,June rainfall
+Irrigation (with group),0,variable,rainfall_may_june_mm,16,-19.25265849818901,22.267658233642578,May–June rainfall
+Irrigation (with group),0,variable,temperature_annual_c,16,-18.97462101397023,23.337411880493164,Annual temperature
+Irrigation (with group),0,variable,temperature_may_c,16,-41.91763232101452,44.987361907958984,May temperature
+Irrigation (with group),0,variable,temperature_june_c,16,-21.480501556396526,32.26884460449219,June temperature
+Irrigation (with group),0,variable,temperature_may_june_c,16,1.2356033325195312,3.1488797664642334,May–June temperature
+Irrigation (with group),0,variable,district,16,78.31908004170303,182.33938598632812,District
+Irrigation (with group),0,variable,irrigation_group,16,143.02477381725984,185.62088012695312,Irrigation group
+Irrigation (with group),0,group,District,16,75.93157815265792,182.33938598632812,District
+Irrigation (with group),0,group,Rainfall,16,-12.543938160057284,125.0474624633789,Rainfall
+Irrigation (with group),0,group,Temperature,16,-39.982172496492126,67.30342864990234,Temperature
+Irrigation (with group),0,group,Irrigation group,16,136.80244432907497,185.62088012695312,Irrigation group
+Irrigation (with group),1,variable,rainfall_annual_mm,16,-9.626429195058595,100.6200180053711,Annual rainfall
+Irrigation (with group),1,variable,rainfall_may_mm,16,-8.835831733153919,56.387428283691406,May rainfall
+Irrigation (with group),1,variable,rainfall_june_mm,16,0.1451243273757427,46.9268798828125,June rainfall
+Irrigation (with group),1,variable,rainfall_may_june_mm,16,34.132059455128896,55.979801177978516,May–June rainfall
+Irrigation (with group),1,variable,temperature_annual_c,16,4.201897048950196,27.941062927246094,Annual temperature
+Irrigation (with group),1,variable,temperature_may_c,16,63.43879757991981,53.39576721191406,May temperature
+Irrigation (with group),1,variable,temperature_june_c,16,-4.218904876708985,13.944355010986328,June temperature
+Irrigation (with group),1,variable,temperature_may_june_c,16,-10.68208818277559,27.081741333007812,May–June temperature
+Irrigation (with group),1,variable,district,16,51.232880661377386,129.4061279296875,District
+Irrigation (with group),1,variable,irrigation_group,16,217.1804604030759,239.4562530517578,Irrigation group
+Irrigation (with group),1,group,District,16,44.37256016237271,129.4061279296875,District
+Irrigation (with group),1,group,Rainfall,16,44.03883036216145,107.47256469726562,Rainfall
+Irrigation (with group),1,group,Temperature,16,45.108791432329916,59.16455078125,Temperature
+Irrigation (with group),1,group,Irrigation group,16,202.19692180670427,239.4562530517578,Irrigation group
+Irrigation (with group),2,variable,rainfall_annual_mm,16,76.2372580942289,85.58143615722656,Annual rainfall
+Irrigation (with group),2,variable,rainfall_may_mm,16,47.01401679519023,140.3181610107422,May rainfall
+Irrigation (with group),2,variable,rainfall_june_mm,16,50.22611312866211,43.87206268310547,June rainfall
+Irrigation (with group),2,variable,rainfall_may_june_mm,16,-14.193568801879882,13.488628387451172,May–June rainfall
+Irrigation (with group),2,variable,temperature_annual_c,16,-7.231884154431481,64.16072082519531,Annual temperature
+Irrigation (with group),2,variable,temperature_may_c,16,0.7014571397491153,18.437440872192383,May temperature
+Irrigation (with group),2,variable,temperature_june_c,16,19.59149998708006,23.230472564697266,June temperature
+Irrigation (with group),2,variable,temperature_may_june_c,16,26.366629530876452,20.628257751464844,May–June temperature
+Irrigation (with group),2,variable,district,16,93.79583061701555,62.066688537597656,District
+Irrigation (with group),2,variable,irrigation_group,16,175.71106937832033,200.01177978515625,Irrigation group
+Irrigation (with group),2,group,District,16,94.17021582446478,62.066688537597656,District
+Irrigation (with group),2,group,Rainfall,16,167.82081474704447,184.1214141845703,Rainfall
+Irrigation (with group),2,group,Temperature,16,34.31397770209064,73.42816925048828,Temperature
+Irrigation (with group),2,group,Irrigation group,16,168.78869873381214,200.01177978515625,Irrigation group
+Irrigation (with group),3,variable,rainfall_annual_mm,16,-21.729810458720678,83.64114379882812,Annual rainfall
+Irrigation (with group),3,variable,rainfall_may_mm,16,-43.19732299506184,194.38909912109375,May rainfall
+Irrigation (with group),3,variable,rainfall_june_mm,16,-2.262153472219816,77.56700134277344,June rainfall
+Irrigation (with group),3,variable,rainfall_may_june_mm,16,-27.268332242077474,58.155521392822266,May–June rainfall
+Irrigation (with group),3,variable,temperature_annual_c,16,-4.845386966972472,49.51510238647461,Annual temperature
+Irrigation (with group),3,variable,temperature_may_c,16,1.7800066013940268,25.76383399963379,May temperature
+Irrigation (with group),3,variable,temperature_june_c,16,-11.8529483795166,14.540912628173828,June temperature
+Irrigation (with group),3,variable,temperature_may_june_c,16,55.659043884277345,54.21961975097656,May–June temperature
+Irrigation (with group),3,variable,district,16,18.94007893439086,220.9821319580078,District
+Irrigation (with group),3,variable,irrigation_group,16,197.3146007293141,226.67037963867188,Irrigation group
+Irrigation (with group),3,group,District,16,19.0598137114863,220.9821319580078,District
+Irrigation (with group),3,group,Rainfall,16,5.088549613032157,250.66802978515625,Rainfall
+Irrigation (with group),3,group,Temperature,16,27.391263308344627,71.66996002197266,Temperature
+Irrigation (with group),3,group,Irrigation group,16,149.79851769979663,226.67037963867188,Irrigation group
+Irrigation (with group),4,variable,rainfall_annual_mm,16,3.6776611187677304,123.8065185546875,Annual rainfall
+Irrigation (with group),4,variable,rainfall_may_mm,16,92.1866656679285,86.21511840820312,May rainfall
+Irrigation (with group),4,variable,rainfall_june_mm,16,56.50674471359557,29.173410415649414,June rainfall
+Irrigation (with group),4,variable,rainfall_may_june_mm,16,11.63955192565918,15.566110610961914,May–June rainfall
+Irrigation (with group),4,variable,temperature_annual_c,16,12.081600570678711,17.851531982421875,Annual temperature
+Irrigation (with group),4,variable,temperature_may_c,16,40.05194148849095,40.39471435546875,May temperature
+Irrigation (with group),4,variable,temperature_june_c,16,17.42556228637695,15.041372299194336,June temperature
+Irrigation (with group),4,variable,temperature_may_june_c,16,16.10507892115718,13.925798416137695,May–June temperature
+Irrigation (with group),4,variable,district,16,47.387126136324035,93.5950927734375,District
+Irrigation (with group),4,variable,irrigation_group,16,228.50906555233797,175.25396728515625,Irrigation group
+Irrigation (with group),4,group,District,16,47.00461462918856,93.5950927734375,District
+Irrigation (with group),4,group,Rainfall,16,131.38888560422055,174.951904296875,Rainfall
+Irrigation (with group),4,group,Temperature,16,67.71155324196529,57.856956481933594,Temperature
+Irrigation (with group),4,group,Irrigation group,16,193.8836915429444,175.25396728515625,Irrigation group
+Irrigation (with group),5,variable,rainfall_annual_mm,16,4.656138431304095,152.86593627929688,Annual rainfall
+Irrigation (with group),5,variable,rainfall_may_mm,16,-55.95527467925838,118.80583190917969,May rainfall
+Irrigation (with group),5,variable,rainfall_june_mm,16,61.20704999352995,69.47845458984375,June rainfall
+Irrigation (with group),5,variable,rainfall_may_june_mm,16,-11.814798699019942,41.81642532348633,May–June rainfall
+Irrigation (with group),5,variable,temperature_annual_c,16,7.355583234238992,11.412595748901367,Annual temperature
+Irrigation (with group),5,variable,temperature_may_c,16,-0.4325220488566515,24.171335220336914,May temperature
+Irrigation (with group),5,variable,temperature_june_c,16,-18.528992843627933,13.670127868652344,June temperature
+Irrigation (with group),5,variable,temperature_may_june_c,16,6.469173514675324,21.123497009277344,May–June temperature
+Irrigation (with group),5,variable,district,16,97.5567659111538,116.14691162109375,District
+Irrigation (with group),5,variable,irrigation_group,16,140.61162113273895,140.07833862304688,Irrigation group
+Irrigation (with group),5,group,District,16,86.58325046839546,116.14691162109375,District
+Irrigation (with group),5,group,Rainfall,16,55.2762093953708,263.9853515625,Rainfall
+Irrigation (with group),5,group,Temperature,16,7.761896959814467,41.10320281982422,Temperature
+Irrigation (with group),5,group,Irrigation group,16,136.36383594597137,140.07833862304688,Irrigation group
+Irrigation (with group),6,variable,rainfall_annual_mm,16,83.96839977553142,50.802337646484375,Annual rainfall
+Irrigation (with group),6,variable,rainfall_may_mm,16,-45.002620647162374,86.30638122558594,May rainfall
+Irrigation (with group),6,variable,rainfall_june_mm,16,24.163215285335365,97.96719360351562,June rainfall
+Irrigation (with group),6,variable,rainfall_may_june_mm,16,-15.396154114778208,61.4715690612793,May–June rainfall
+Irrigation (with group),6,variable,temperature_annual_c,16,-10.512094116210937,18.833330154418945,Annual temperature
+Irrigation (with group),6,variable,temperature_may_c,16,-13.440408750241948,53.815006256103516,May temperature
+Irrigation (with group),6,variable,temperature_june_c,16,6.556219346824117,35.23237991333008,June temperature
+Irrigation (with group),6,variable,temperature_may_june_c,16,-24.44234385053698,62.524208068847656,May–June temperature
+Irrigation (with group),6,variable,district,16,16.474621054199794,52.50532531738281,District
+Irrigation (with group),6,variable,irrigation_group,16,69.17706472305619,287.5574645996094,Irrigation group
+Irrigation (with group),6,group,District,16,18.455113253644306,52.50532531738281,District
+Irrigation (with group),6,group,Rainfall,16,-7.860928920258933,160.69859313964844,Rainfall
+Irrigation (with group),6,group,Temperature,16,-54.404277216914714,87.72482299804688,Temperature
+Irrigation (with group),6,group,Irrigation group,16,47.18621853974044,287.5574645996094,Irrigation group
+Irrigation (with group),7,variable,rainfall_annual_mm,16,2.4059755386451713,96.31887817382812,Annual rainfall
+Irrigation (with group),7,variable,rainfall_may_mm,16,70.47569729875454,62.77007293701172,May rainfall
+Irrigation (with group),7,variable,rainfall_june_mm,16,9.619366143738011,45.4788932800293,June rainfall
+Irrigation (with group),7,variable,rainfall_may_june_mm,16,-37.57955487991156,38.18617248535156,May–June rainfall
+Irrigation (with group),7,variable,temperature_annual_c,16,-20.346955356919022,38.99934387207031,Annual temperature
+Irrigation (with group),7,variable,temperature_may_c,16,-12.072824416685403,37.8116340637207,May temperature
+Irrigation (with group),7,variable,temperature_june_c,16,18.24339891183548,14.689738273620605,June temperature
+Irrigation (with group),7,variable,temperature_may_june_c,16,-3.7188045501708986,16.223743438720703,May–June temperature
+Irrigation (with group),7,variable,district,16,59.42743044484255,95.22657775878906,District
+Irrigation (with group),7,variable,irrigation_group,16,185.57273319219826,118.69435119628906,Irrigation group
+Irrigation (with group),7,group,District,16,58.478152149950766,95.22657775878906,District
+Irrigation (with group),7,group,Rainfall,16,73.62187780329215,97.92306518554688,Rainfall
+Irrigation (with group),7,group,Temperature,16,-23.38910269565196,80.95484924316406,Temperature
+Irrigation (with group),7,group,Irrigation group,16,144.55777321503453,118.69435119628906,Irrigation group
+Irrigation (with group),8,variable,rainfall_annual_mm,16,-19.43154243519943,107.32583618164062,Annual rainfall
+Irrigation (with group),8,variable,rainfall_may_mm,16,15.126443118145607,59.11475372314453,May rainfall
+Irrigation (with group),8,variable,rainfall_june_mm,16,-3.57530221378106,58.15031433105469,June rainfall
+Irrigation (with group),8,variable,rainfall_may_june_mm,16,-19.150776013767523,104.51953125,May–June rainfall
+Irrigation (with group),8,variable,temperature_annual_c,16,8.615428161621093,11.275371551513672,Annual temperature
+Irrigation (with group),8,variable,temperature_may_c,16,-17.59552764892578,31.506446838378906,May temperature
+Irrigation (with group),8,variable,temperature_june_c,16,-7.946372222900391,20.494163513183594,June temperature
+Irrigation (with group),8,variable,temperature_may_june_c,16,-3.0464019775390625,15.207307815551758,May–June temperature
+Irrigation (with group),8,variable,district,16,62.79595286989379,385.6042175292969,District
+Irrigation (with group),8,variable,irrigation_group,16,128.6902122428096,307.10870361328125,Irrigation group
+Irrigation (with group),8,group,District,16,54.28495321038427,385.6042175292969,District
+Irrigation (with group),8,group,Rainfall,16,33.982626936189895,221.28965759277344,Rainfall
+Irrigation (with group),8,group,Temperature,16,-23.877795877185907,45.48828887939453,Temperature
+Irrigation (with group),8,group,Irrigation group,16,118.32761628559774,307.10870361328125,Irrigation group
+Irrigation (with group),9,variable,rainfall_annual_mm,16,59.16654242650592,131.26339721679688,Annual rainfall
+Irrigation (with group),9,variable,rainfall_may_mm,16,-155.7006826445311,209.42788696289062,May rainfall
+Irrigation (with group),9,variable,rainfall_june_mm,16,-5.456472396850586,44.75444793701172,June rainfall
+Irrigation (with group),9,variable,rainfall_may_june_mm,16,-39.40586865527554,86.41676330566406,May–June rainfall
+Irrigation (with group),9,variable,temperature_annual_c,16,5.548423004150391,31.6798095703125,Annual temperature
+Irrigation (with group),9,variable,temperature_may_c,16,-16.571200001923465,28.99754524230957,May temperature
+Irrigation (with group),9,variable,temperature_june_c,16,3.2362857818603517,23.92348861694336,June temperature
+Irrigation (with group),9,variable,temperature_may_june_c,16,8.680693435668946,13.595613479614258,May–June temperature
+Irrigation (with group),9,variable,district,16,26.690443801879884,139.37750244140625,District
+Irrigation (with group),9,variable,irrigation_group,16,198.29543377000218,203.171875,Irrigation group
+Irrigation (with group),9,group,District,16,15.164780426025391,139.37750244140625,District
+Irrigation (with group),9,group,Rainfall,16,-104.57288816425849,286.1146545410156,Rainfall
+Irrigation (with group),9,group,Temperature,16,12.688737487792968,53.01720428466797,Temperature
+Irrigation (with group),9,group,Irrigation group,16,200.65566093588365,203.171875,Irrigation group
+Irrigation (with group),10,variable,rainfall_annual_mm,16,-4.13060391644822,57.15931701660156,Annual rainfall
+Irrigation (with group),10,variable,rainfall_may_mm,16,-4.225487734753699,42.64281463623047,May rainfall
+Irrigation (with group),10,variable,rainfall_june_mm,16,19.82656028879286,87.72344207763672,June rainfall
+Irrigation (with group),10,variable,rainfall_may_june_mm,16,9.635722855265502,58.06850814819336,May–June rainfall
+Irrigation (with group),10,variable,temperature_annual_c,16,-12.969917655197676,12.907194137573242,Annual temperature
+Irrigation (with group),10,variable,temperature_may_c,16,-20.46998144058916,41.12782287597656,May temperature
+Irrigation (with group),10,variable,temperature_june_c,16,-6.0845649719237915,18.88400650024414,June temperature
+Irrigation (with group),10,variable,temperature_may_june_c,16,8.022299325527982,56.41522979736328,May–June temperature
+Irrigation (with group),10,variable,district,16,13.664558891130195,189.33395385742188,District
+Irrigation (with group),10,variable,irrigation_group,16,183.47344768370834,248.00936889648438,Irrigation group
+Irrigation (with group),10,group,District,16,16.152289332679562,189.33395385742188,District
+Irrigation (with group),10,group,Rainfall,16,134.6951285934203,111.13880920410156,Rainfall
+Irrigation (with group),10,group,Temperature,16,-24.1561218833129,81.82095336914062,Temperature
+Irrigation (with group),10,group,Irrigation group,16,182.58918011107704,248.00936889648438,Irrigation group
+Irrigation (with group),11,variable,rainfall_annual_mm,16,20.688235091978175,99.16513061523438,Annual rainfall
+Irrigation (with group),11,variable,rainfall_may_mm,16,-22.85308940785359,82.41307067871094,May rainfall
+Irrigation (with group),11,variable,rainfall_june_mm,16,-5.172183813504307,48.512454986572266,June rainfall
+Irrigation (with group),11,variable,rainfall_may_june_mm,16,-37.32434301534452,36.955421447753906,May–June rainfall
+Irrigation (with group),11,variable,temperature_annual_c,16,-19.142182784377162,27.69513511657715,Annual temperature
+Irrigation (with group),11,variable,temperature_may_c,16,1.8224380493164063,20.037586212158203,May temperature
+Irrigation (with group),11,variable,temperature_june_c,16,12.816766474037786,14.207653045654297,June temperature
+Irrigation (with group),11,variable,temperature_may_june_c,16,-28.180558757669996,46.70738220214844,May–June temperature
+Irrigation (with group),11,variable,district,16,108.26374197418582,240.4931640625,District
+Irrigation (with group),11,variable,irrigation_group,16,105.07462861548534,238.707763671875,Irrigation group
+Irrigation (with group),11,group,District,16,106.66439431856858,240.4931640625,District
+Irrigation (with group),11,group,Rainfall,16,-34.77005689501499,126.17626190185547,Rainfall
+Irrigation (with group),11,group,Temperature,16,-44.246583258697385,65.64927673339844,Temperature
+Irrigation (with group),11,group,Irrigation group,16,88.95569055659621,238.707763671875,Irrigation group
+Irrigation (with group),12,variable,rainfall_annual_mm,16,102.57814766295198,63.849998474121094,Annual rainfall
+Irrigation (with group),12,variable,rainfall_may_mm,16,76.9338221104567,79.48139190673828,May rainfall
+Irrigation (with group),12,variable,rainfall_june_mm,16,40.251697873647004,65.3366470336914,June rainfall
+Irrigation (with group),12,variable,rainfall_may_june_mm,16,-0.8950527818900469,5.378129959106445,May–June rainfall
+Irrigation (with group),12,variable,temperature_annual_c,16,4.400924049980415,21.45496940612793,Annual temperature
+Irrigation (with group),12,variable,temperature_may_c,16,58.736228397569406,65.54580688476562,May temperature
+Irrigation (with group),12,variable,temperature_june_c,16,1.2167452550317193,22.244300842285156,June temperature
+Irrigation (with group),12,variable,temperature_may_june_c,16,9.629335746564374,27.686508178710938,May–June temperature
+Irrigation (with group),12,variable,district,16,12.370667533858722,94.67606353759766,District
+Irrigation (with group),12,variable,irrigation_group,16,75.05934334490084,272.942626953125,Irrigation group
+Irrigation (with group),12,group,District,16,8.820032788838333,94.67606353759766,District
+Irrigation (with group),12,group,Rainfall,16,203.7267798882619,145.84432983398438,Rainfall
+Irrigation (with group),12,group,Temperature,16,40.72021304896965,100.98198699951172,Temperature
+Irrigation (with group),12,group,Irrigation group,16,84.65258054547871,272.942626953125,Irrigation group
+Irrigation (with group),13,variable,rainfall_annual_mm,16,23.945703379050777,86.09236145019531,Annual rainfall
+Irrigation (with group),13,variable,rainfall_may_mm,16,72.60255435648288,129.7265167236328,May rainfall
+Irrigation (with group),13,variable,rainfall_june_mm,16,12.055754574862386,8.241104125976562,June rainfall
+Irrigation (with group),13,variable,rainfall_may_june_mm,16,-10.574758149243957,62.31986999511719,May–June rainfall
+Irrigation (with group),13,variable,temperature_annual_c,16,18.665707882967858,12.453717231750488,Annual temperature
+Irrigation (with group),13,variable,temperature_may_c,16,7.439051957563919,16.585407257080078,May temperature
+Irrigation (with group),13,variable,temperature_june_c,16,13.477976763698118,23.50076675415039,June temperature
+Irrigation (with group),13,variable,temperature_may_june_c,16,25.408425432255797,25.731555938720703,May–June temperature
+Irrigation (with group),13,variable,district,16,114.8221632698076,112.27305603027344,District
+Irrigation (with group),13,variable,irrigation_group,16,219.20441724639213,205.53358459472656,Irrigation group
+Irrigation (with group),13,group,District,16,133.89634108150224,112.27305603027344,District
+Irrigation (with group),13,group,Rainfall,16,74.57685335029876,155.1909942626953,Rainfall
+Irrigation (with group),13,group,Temperature,16,61.472434520699835,47.553123474121094,Temperature
+Irrigation (with group),13,group,Irrigation group,16,220.39727557957616,205.53358459472656,Irrigation group
+Irrigation (with group),14,variable,rainfall_annual_mm,16,-54.66584283030229,74.88296508789062,Annual rainfall
+Irrigation (with group),14,variable,rainfall_may_mm,16,13.98374813864184,56.228431701660156,May rainfall
+Irrigation (with group),14,variable,rainfall_june_mm,16,24.918608347397683,61.41717529296875,June rainfall
+Irrigation (with group),14,variable,rainfall_may_june_mm,16,-39.3672009072783,63.66127014160156,May–June rainfall
+Irrigation (with group),14,variable,temperature_annual_c,16,-30.6992097722859,31.248985290527344,Annual temperature
+Irrigation (with group),14,variable,temperature_may_c,16,12.305998138840028,65.80635070800781,May temperature
+Irrigation (with group),14,variable,temperature_june_c,16,-23.71187840722979,35.658485412597656,June temperature
+Irrigation (with group),14,variable,temperature_may_june_c,16,20.41996459960936,24.408937454223633,May–June temperature
+Irrigation (with group),14,variable,district,16,9.588890693536376,410.7886962890625,District
+Irrigation (with group),14,variable,irrigation_group,16,317.2427739088952,265.60540771484375,Irrigation group
+Irrigation (with group),14,group,District,16,15.060763875480571,410.7886962890625,District
+Irrigation (with group),14,group,Rainfall,16,27.41871240118515,99.39537048339844,Rainfall
+Irrigation (with group),14,group,Temperature,16,-6.69071946718987,97.48820495605469,Temperature
+Irrigation (with group),14,group,Irrigation group,16,284.42006059301167,265.60540771484375,Irrigation group
+Irrigation (with group),15,variable,rainfall_annual_mm,16,30.14566490387199,82.43684387207031,Annual rainfall
+Irrigation (with group),15,variable,rainfall_may_mm,16,-7.684640533091749,103.93302917480469,May rainfall
+Irrigation (with group),15,variable,rainfall_june_mm,16,37.14223337786416,94.39276123046875,June rainfall
+Irrigation (with group),15,variable,rainfall_may_june_mm,16,-5.078839674046117,17.051477432250977,May–June rainfall
+Irrigation (with group),15,variable,temperature_annual_c,16,-12.334944105593042,27.11626434326172,Annual temperature
+Irrigation (with group),15,variable,temperature_may_c,16,14.841782651015114,53.703067779541016,May temperature
+Irrigation (with group),15,variable,temperature_june_c,16,-2.2739917903666367,22.251480102539062,June temperature
+Irrigation (with group),15,variable,temperature_may_june_c,16,27.76004697218776,33.32634353637695,May–June temperature
+Irrigation (with group),15,variable,district,16,84.85087209407479,265.69580078125,District
+Irrigation (with group),15,variable,irrigation_group,16,170.2638413596141,104.78543853759766,Irrigation group
+Irrigation (with group),15,group,District,16,58.880368266624714,265.69580078125,District
+Irrigation (with group),15,group,Rainfall,16,59.33163083336997,166.3744659423828,Rainfall
+Irrigation (with group),15,group,Temperature,16,6.281348106702177,80.25757598876953,Temperature
+Irrigation (with group),15,group,Irrigation group,16,140.9049278413287,104.78543853759766,Irrigation group
+Irrigation (with group),16,variable,rainfall_annual_mm,16,56.34124501858649,75.32398986816406,Annual rainfall
+Irrigation (with group),16,variable,rainfall_may_mm,16,49.282583478823355,82.5282974243164,May rainfall
+Irrigation (with group),16,variable,rainfall_june_mm,16,4.672409439086925,14.849822998046875,June rainfall
+Irrigation (with group),16,variable,rainfall_may_june_mm,16,6.384654924370747,25.535781860351562,May–June rainfall
+Irrigation (with group),16,variable,temperature_annual_c,16,14.853886128684016,22.549165725708008,Annual temperature
+Irrigation (with group),16,variable,temperature_may_c,16,10.388183165048513,36.308677673339844,May temperature
+Irrigation (with group),16,variable,temperature_june_c,16,8.88981632255693,21.4910831451416,June temperature
+Irrigation (with group),16,variable,temperature_may_june_c,16,2.490399932861371,8.989103317260742,May–June temperature
+Irrigation (with group),16,variable,district,16,110.53934375639668,382.9466247558594,District
+Irrigation (with group),16,variable,irrigation_group,16,198.10807392666797,266.34735107421875,Irrigation group
+Irrigation (with group),16,group,District,16,120.18559150459662,382.9466247558594,District
+Irrigation (with group),16,group,Rainfall,16,132.59017189531602,141.33615112304688,Rainfall
+Irrigation (with group),16,group,Temperature,16,37.72371326731436,44.411476135253906,Temperature
+Irrigation (with group),16,group,Irrigation group,16,164.36066269519284,266.34735107421875,Irrigation group
+Irrigation (with group),17,variable,rainfall_annual_mm,16,66.62855789718651,93.83180236816406,Annual rainfall
+Irrigation (with group),17,variable,rainfall_may_mm,16,-11.783438300449461,107.21996307373047,May rainfall
+Irrigation (with group),17,variable,rainfall_june_mm,16,69.15213203430172,60.325233459472656,June rainfall
+Irrigation (with group),17,variable,rainfall_may_june_mm,16,-40.99029299799628,52.060455322265625,May–June rainfall
+Irrigation (with group),17,variable,temperature_annual_c,16,-28.85999086594531,24.579389572143555,Annual temperature
+Irrigation (with group),17,variable,temperature_may_c,16,-9.937236600604354,42.416236877441406,May temperature
+Irrigation (with group),17,variable,temperature_june_c,16,15.990805842975636,28.603816986083984,June temperature
+Irrigation (with group),17,variable,temperature_may_june_c,16,27.865453057783167,45.56803894042969,May–June temperature
+Irrigation (with group),17,variable,district,16,82.49771813033199,129.8046875,District
+Irrigation (with group),17,variable,irrigation_group,16,163.6619591867891,232.3663330078125,Irrigation group
+Irrigation (with group),17,group,District,16,82.1390036054745,129.8046875,District
+Irrigation (with group),17,group,Rainfall,16,110.43179813253475,189.85650634765625,Rainfall
+Irrigation (with group),17,group,Temperature,16,23.051328071325674,79.27648162841797,Temperature
+Irrigation (with group),17,group,Irrigation group,16,179.92561623535352,232.3663330078125,Irrigation group
+Irrigation (with group),18,variable,rainfall_annual_mm,16,137.5059499737692,77.21479797363281,Annual rainfall
+Irrigation (with group),18,variable,rainfall_may_mm,16,-3.7132259352658368,36.68257522583008,May rainfall
+Irrigation (with group),18,variable,rainfall_june_mm,16,-51.52813612033176,89.52774810791016,June rainfall
+Irrigation (with group),18,variable,rainfall_may_june_mm,16,-15.802686006505402,53.68682861328125,May–June rainfall
+Irrigation (with group),18,variable,temperature_annual_c,16,34.687293793905916,33.17405700683594,Annual temperature
+Irrigation (with group),18,variable,temperature_may_c,16,9.502889432967459,41.412567138671875,May temperature
+Irrigation (with group),18,variable,temperature_june_c,16,-8.11868433086438,26.503124237060547,June temperature
+Irrigation (with group),18,variable,temperature_may_june_c,16,-14.776568323964387,19.706565856933594,May–June temperature
+Irrigation (with group),18,variable,district,16,32.112304886639116,214.3827667236328,District
+Irrigation (with group),18,variable,irrigation_group,16,144.3525007822182,270.0433349609375,Irrigation group
+Irrigation (with group),18,group,District,16,36.026096812577485,214.3827667236328,District
+Irrigation (with group),18,group,Rainfall,16,-14.310238496486164,149.4234161376953,Rainfall
+Irrigation (with group),18,group,Temperature,16,46.059113520793844,84.42881774902344,Temperature
+Irrigation (with group),18,group,Irrigation group,16,97.36042880220403,270.0433349609375,Irrigation group
+Irrigation (with group),19,variable,rainfall_annual_mm,16,5.850452887166648,37.91147232055664,Annual rainfall
+Irrigation (with group),19,variable,rainfall_may_mm,16,-1.0013654042959388,191.3510284423828,May rainfall
+Irrigation (with group),19,variable,rainfall_june_mm,16,2.990015983581543,22.39507293701172,June rainfall
+Irrigation (with group),19,variable,rainfall_may_june_mm,16,-8.636109436363757,9.70479679107666,May–June rainfall
+Irrigation (with group),19,variable,temperature_annual_c,16,-15.287888835840283,11.614217758178711,Annual temperature
+Irrigation (with group),19,variable,temperature_may_c,16,-34.27356598275191,47.541988372802734,May temperature
+Irrigation (with group),19,variable,temperature_june_c,16,19.846846703366282,23.905269622802734,June temperature
+Irrigation (with group),19,variable,temperature_may_june_c,16,7.171546310923555,53.14168167114258,May–June temperature
+Irrigation (with group),19,variable,district,16,-10.137829219850499,493.8952941894531,District
+Irrigation (with group),19,variable,irrigation_group,16,176.8363197114733,230.53887939453125,Irrigation group
+Irrigation (with group),19,group,District,16,-10.802880535333378,493.8952941894531,District
+Irrigation (with group),19,group,Rainfall,16,72.45542343085927,219.12301635742188,Rainfall
+Irrigation (with group),19,group,Temperature,16,-26.920064592151668,93.75389099121094,Temperature
+Irrigation (with group),19,group,Irrigation group,16,151.17512577198173,230.53887939453125,Irrigation group
+Irrigation (with group),20,variable,rainfall_annual_mm,16,-8.188215557060994,52.47999572753906,Annual rainfall
+Irrigation (with group),20,variable,rainfall_may_mm,16,26.63805064603797,178.56224060058594,May rainfall
+Irrigation (with group),20,variable,rainfall_june_mm,16,11.660421926325023,46.25177001953125,June rainfall
+Irrigation (with group),20,variable,rainfall_may_june_mm,16,108.96199318682321,88.70823669433594,May–June rainfall
+Irrigation (with group),20,variable,temperature_annual_c,16,20.19917320462386,38.87287139892578,Annual temperature
+Irrigation (with group),20,variable,temperature_may_c,16,10.468979850444066,40.258399963378906,May temperature
+Irrigation (with group),20,variable,temperature_june_c,16,-6.789202199584233,15.689924240112305,June temperature
+Irrigation (with group),20,variable,temperature_may_june_c,16,8.193511195543067,19.97035789489746,May–June temperature
+Irrigation (with group),20,variable,district,16,72.7916717133613,573.7786254882812,District
+Irrigation (with group),20,variable,irrigation_group,16,232.2969368348315,284.03424072265625,Irrigation group
+Irrigation (with group),20,group,District,16,73.04930377093834,573.7786254882812,District
+Irrigation (with group),20,group,Rainfall,16,99.38750112643339,244.74618530273438,Rainfall
+Irrigation (with group),20,group,Temperature,16,12.666621414163393,45.43285369873047,Temperature
+Irrigation (with group),20,group,Irrigation group,16,208.22263528647255,284.03424072265625,Irrigation group
+Irrigation (with group),21,variable,rainfall_annual_mm,16,-10.121887341094986,59.55011749267578,Annual rainfall
+Irrigation (with group),21,variable,rainfall_may_mm,16,38.20047637192613,119.67050170898438,May rainfall
+Irrigation (with group),21,variable,rainfall_june_mm,16,12.479946224823157,53.0973014831543,June rainfall
+Irrigation (with group),21,variable,rainfall_may_june_mm,16,27.38835445107393,30.381023406982422,May–June rainfall
+Irrigation (with group),21,variable,temperature_annual_c,16,17.26007865955122,8.665843963623047,Annual temperature
+Irrigation (with group),21,variable,temperature_may_c,16,4.905731747384687,65.86643981933594,May temperature
+Irrigation (with group),21,variable,temperature_june_c,16,-5.226726179666673,13.125882148742676,June temperature
+Irrigation (with group),21,variable,temperature_may_june_c,16,2.145848482413618,33.15724182128906,May–June temperature
+Irrigation (with group),21,variable,district,16,84.9214277059946,87.3051986694336,District
+Irrigation (with group),21,variable,irrigation_group,16,101.26103923299937,264.7607727050781,Irrigation group
+Irrigation (with group),21,group,District,16,81.48774134521761,87.3051986694336,District
+Irrigation (with group),21,group,Rainfall,16,123.77973747467763,203.59458923339844,Rainfall
+Irrigation (with group),21,group,Temperature,16,30.094202846368205,63.12037658691406,Temperature
+Irrigation (with group),21,group,Irrigation group,16,94.9025389912434,264.7607727050781,Irrigation group
+Irrigation (with group),22,variable,rainfall_annual_mm,16,62.597160976993635,51.625396728515625,Annual rainfall
+Irrigation (with group),22,variable,rainfall_may_mm,16,25.590845841639926,58.961307525634766,May rainfall
+Irrigation (with group),22,variable,rainfall_june_mm,16,13.013965205496111,107.06837463378906,June rainfall
+Irrigation (with group),22,variable,rainfall_may_june_mm,16,-3.1456060271533914,20.67388916015625,May–June rainfall
+Irrigation (with group),22,variable,temperature_annual_c,16,12.999213521892614,35.392433166503906,Annual temperature
+Irrigation (with group),22,variable,temperature_may_c,16,4.948183635350901,21.779415130615234,May temperature
+Irrigation (with group),22,variable,temperature_june_c,16,-7.253572271390911,18.41158676147461,June temperature
+Irrigation (with group),22,variable,temperature_may_june_c,16,38.03575855676125,53.4697265625,May–June temperature
+Irrigation (with group),22,variable,district,16,70.15745313075345,394.0340881347656,District
+Irrigation (with group),22,variable,irrigation_group,16,127.34455492460248,209.55831909179688,Irrigation group
+Irrigation (with group),22,group,District,16,71.36654463228541,394.0340881347656,District
+Irrigation (with group),22,group,Rainfall,16,78.23283628964442,139.57659912109375,Rainfall
+Irrigation (with group),22,group,Temperature,16,30.715559162410138,86.83458709716797,Temperature
+Irrigation (with group),22,group,Irrigation group,16,127.83396711601975,209.55831909179688,Irrigation group
+Irrigation (with group),23,variable,rainfall_annual_mm,16,-9.273122668025483,61.02363204956055,Annual rainfall
+Irrigation (with group),23,variable,rainfall_may_mm,16,-39.88739208445202,54.311344146728516,May rainfall
+Irrigation (with group),23,variable,rainfall_june_mm,16,25.46051241497258,93.546875,June rainfall
+Irrigation (with group),23,variable,rainfall_may_june_mm,16,36.99163298639085,91.3831558227539,May–June rainfall
+Irrigation (with group),23,variable,temperature_annual_c,16,-15.587286329359362,53.88819885253906,Annual temperature
+Irrigation (with group),23,variable,temperature_may_c,16,13.344869454929958,53.17131042480469,May temperature
+Irrigation (with group),23,variable,temperature_june_c,16,-15.89388164141437,23.856706619262695,June temperature
+Irrigation (with group),23,variable,temperature_may_june_c,16,5.859600067138672,11.170882225036621,May–June temperature
+Irrigation (with group),23,variable,district,16,66.55191766661761,85.29727935791016,District
+Irrigation (with group),23,variable,irrigation_group,16,73.85297741028636,275.0233154296875,Irrigation group
+Irrigation (with group),23,group,District,16,57.86939379435836,85.29727935791016,District
+Irrigation (with group),23,group,Rainfall,16,-60.5842454706376,134.21102905273438,Rainfall
+Irrigation (with group),23,group,Temperature,16,-8.49299445622301,79.83515167236328,Temperature
+Irrigation (with group),23,group,Irrigation group,16,80.63119253627701,275.0233154296875,Irrigation group
+Irrigation (with group),24,variable,rainfall_annual_mm,16,47.19647317198917,119.67100524902344,Annual rainfall
+Irrigation (with group),24,variable,rainfall_may_mm,16,0.8043112050280229,44.56574630737305,May rainfall
+Irrigation (with group),24,variable,rainfall_june_mm,16,49.737883080376506,47.71598815917969,June rainfall
+Irrigation (with group),24,variable,rainfall_may_june_mm,16,-5.852240753173828,19.29216957092285,May–June rainfall
+Irrigation (with group),24,variable,temperature_annual_c,16,0.5729000091552734,6.144841194152832,Annual temperature
+Irrigation (with group),24,variable,temperature_may_c,16,0.9091839168245258,50.626773834228516,May temperature
+Irrigation (with group),24,variable,temperature_june_c,16,3.2150043487548827,28.753799438476562,June temperature
+Irrigation (with group),24,variable,temperature_may_june_c,16,8.21302380032007,18.47445297241211,May–June temperature
+Irrigation (with group),24,variable,district,16,24.320710976935043,194.7724609375,District
+Irrigation (with group),24,variable,irrigation_group,16,178.05951154501528,283.68505859375,Irrigation group
+Irrigation (with group),24,group,District,16,24.998407933543145,194.7724609375,District
+Irrigation (with group),24,group,Rainfall,16,117.75685345577615,114.53060150146484,Rainfall
+Irrigation (with group),24,group,Temperature,16,17.697997827251662,57.03351974487305,Temperature
+Irrigation (with group),24,group,Irrigation group,16,167.39806427234876,283.68505859375,Irrigation group
+Irrigation (with group),25,variable,rainfall_annual_mm,16,0.04609974637036771,151.362548828125,Annual rainfall
+Irrigation (with group),25,variable,rainfall_may_mm,16,-33.99133938499551,85.86384582519531,May rainfall
+Irrigation (with group),25,variable,rainfall_june_mm,16,19.785072851892767,49.907752990722656,June rainfall
+Irrigation (with group),25,variable,rainfall_may_june_mm,16,-21.351596567374614,54.867515563964844,May–June rainfall
+Irrigation (with group),25,variable,temperature_annual_c,16,1.0533217231354854,27.39525604248047,Annual temperature
+Irrigation (with group),25,variable,temperature_may_c,16,4.874727480324978,50.911231994628906,May temperature
+Irrigation (with group),25,variable,temperature_june_c,16,-0.6674259185791016,15.263779640197754,June temperature
+Irrigation (with group),25,variable,temperature_may_june_c,16,-23.506590980774753,92.4481430053711,May–June temperature
+Irrigation (with group),25,variable,district,16,36.562983128638095,467.60357666015625,District
+Irrigation (with group),25,variable,irrigation_group,16,110.57848342090293,232.49700927734375,Irrigation group
+Irrigation (with group),25,group,District,16,32.85032656327146,467.60357666015625,District
+Irrigation (with group),25,group,Rainfall,16,64.46017831850881,237.38351440429688,Rainfall
+Irrigation (with group),25,group,Temperature,16,-16.10938910746457,102.42993927001953,Temperature
+Irrigation (with group),25,group,Irrigation group,16,91.39361367178958,232.49700927734375,Irrigation group
+Irrigation (with group),26,variable,rainfall_annual_mm,16,67.1606908618302,63.020164489746094,Annual rainfall
+Irrigation (with group),26,variable,rainfall_may_mm,16,0.5396287873406124,83.09071350097656,May rainfall
+Irrigation (with group),26,variable,rainfall_june_mm,16,13.981984222465599,35.38750076293945,June rainfall
+Irrigation (with group),26,variable,rainfall_may_june_mm,16,7.567132967274512,29.297245025634766,May–June rainfall
+Irrigation (with group),26,variable,temperature_annual_c,16,15.273208098865245,26.352397918701172,Annual temperature
+Irrigation (with group),26,variable,temperature_may_c,16,16.606649929171688,50.10334777832031,May temperature
+Irrigation (with group),26,variable,temperature_june_c,16,-3.904444902470061,26.765825271606445,June temperature
+Irrigation (with group),26,variable,temperature_may_june_c,16,-7.998331322090891,19.982208251953125,May–June temperature
+Irrigation (with group),26,variable,district,16,81.30374548512,85.56936645507812,District
+Irrigation (with group),26,variable,irrigation_group,16,210.00124722035088,263.9804992675781,Irrigation group
+Irrigation (with group),26,group,District,16,73.84243157551349,85.56936645507812,District
+Irrigation (with group),26,group,Rainfall,16,118.74157059706758,140.4424285888672,Rainfall
+Irrigation (with group),26,group,Temperature,16,35.15447750416918,81.20854187011719,Temperature
+Irrigation (with group),26,group,Irrigation group,16,171.74509640748516,263.9804992675781,Irrigation group
+Irrigation (with group),27,variable,rainfall_annual_mm,16,-25.431092602082845,47.66562271118164,Annual rainfall
+Irrigation (with group),27,variable,rainfall_may_mm,16,-5.39490468702981,258.1695251464844,May rainfall
+Irrigation (with group),27,variable,rainfall_june_mm,16,-47.323171185146506,56.63056182861328,June rainfall
+Irrigation (with group),27,variable,rainfall_may_june_mm,16,14.480791473388672,34.07685089111328,May–June rainfall
+Irrigation (with group),27,variable,temperature_annual_c,16,2.1788495684934674,21.404123306274414,Annual temperature
+Irrigation (with group),27,variable,temperature_may_c,16,18.650448339614037,45.20341491699219,May temperature
+Irrigation (with group),27,variable,temperature_june_c,16,-3.7152074624429305,11.192888259887695,June temperature
+Irrigation (with group),27,variable,temperature_may_june_c,16,-1.3764664182984006,27.34705352783203,May–June temperature
+Irrigation (with group),27,variable,district,16,9.5109608116299,560.788818359375,District
+Irrigation (with group),27,variable,irrigation_group,16,110.95521196338677,267.60760498046875,Irrigation group
+Irrigation (with group),27,group,District,16,11.733608963991662,560.788818359375,District
+Irrigation (with group),27,group,Rainfall,16,-10.104151271822989,327.15814208984375,Rainfall
+Irrigation (with group),27,group,Temperature,16,29.943021048017762,75.85830688476562,Temperature
+Irrigation (with group),27,group,Irrigation group,16,97.38926669121898,267.60760498046875,Irrigation group
+Irrigation (with group),28,variable,rainfall_annual_mm,16,48.880972904229665,55.007747650146484,Annual rainfall
+Irrigation (with group),28,variable,rainfall_may_mm,16,-31.771092161476883,83.9250717163086,May rainfall
+Irrigation (with group),28,variable,rainfall_june_mm,16,-0.6455620166795342,31.402544021606445,June rainfall
+Irrigation (with group),28,variable,rainfall_may_june_mm,16,-7.508445739746094,6.085765838623047,May–June rainfall
+Irrigation (with group),28,variable,temperature_annual_c,16,-35.034276363953374,48.11943817138672,Annual temperature
+Irrigation (with group),28,variable,temperature_may_c,16,-28.560822157867552,35.09684753417969,May temperature
+Irrigation (with group),28,variable,temperature_june_c,16,-19.107316700219645,25.924943923950195,June temperature
+Irrigation (with group),28,variable,temperature_may_june_c,16,-6.752270126342774,11.110607147216797,May–June temperature
+Irrigation (with group),28,variable,district,16,-44.50389258425873,119.97730255126953,District
+Irrigation (with group),28,variable,irrigation_group,16,168.31905116287905,266.3457336425781,Irrigation group
+Irrigation (with group),28,group,District,16,-49.039227431999436,119.97730255126953,District
+Irrigation (with group),28,group,Rainfall,16,39.41871199224268,114.96092224121094,Rainfall
+Irrigation (with group),28,group,Temperature,16,-49.582678044124556,89.06182098388672,Temperature
+Irrigation (with group),28,group,Irrigation group,16,176.74154330523302,266.3457336425781,Irrigation group
+Irrigation (with group),29,variable,rainfall_annual_mm,16,-87.56925002554743,63.15119171142578,Annual rainfall
+Irrigation (with group),29,variable,rainfall_may_mm,16,-76.14967323168787,130.05694580078125,May rainfall
+Irrigation (with group),29,variable,rainfall_june_mm,16,-3.2403101575566327,18.356456756591797,June rainfall
+Irrigation (with group),29,variable,rainfall_may_june_mm,16,-73.76348484481768,48.02212142944336,May–June rainfall
+Irrigation (with group),29,variable,temperature_annual_c,16,-40.67820153058447,46.859561920166016,Annual temperature
+Irrigation (with group),29,variable,temperature_may_c,16,-8.787366197421624,19.05491065979004,May temperature
+Irrigation (with group),29,variable,temperature_june_c,16,-4.74670921892407,17.68235969543457,June temperature
+Irrigation (with group),29,variable,temperature_may_june_c,16,-18.479935232107664,22.240976333618164,May–June temperature
+Irrigation (with group),29,variable,district,16,38.31040029165428,367.75201416015625,District
+Irrigation (with group),29,variable,irrigation_group,16,127.84627852865894,209.33645629882812,Irrigation group
+Irrigation (with group),29,group,District,16,44.19953642005668,367.75201416015625,District
+Irrigation (with group),29,group,Rainfall,16,-95.78202649031056,173.8597412109375,Rainfall
+Irrigation (with group),29,group,Temperature,16,-46.67775230308575,55.92982482910156,Temperature
+Irrigation (with group),29,group,Irrigation group,16,105.28258603231525,209.33645629882812,Irrigation group
+"Irrigation, train 2009+2011 / test 2017",2017,variable,rainfall_annual_mm,26,76.30352432323825,113.27743530273438,Annual rainfall
+"Irrigation, train 2009+2011 / test 2017",2017,variable,rainfall_may_mm,26,-15.159759616394178,84.48699188232422,May rainfall
+"Irrigation, train 2009+2011 / test 2017",2017,variable,rainfall_june_mm,26,5.420460549378987,16.194547653198242,June rainfall
+"Irrigation, train 2009+2011 / test 2017",2017,variable,rainfall_may_june_mm,26,-18.72225141496914,28.958789825439453,May–June rainfall
+"Irrigation, train 2009+2011 / test 2017",2017,variable,temperature_annual_c,26,-6.934575818234498,14.925087928771973,Annual temperature
+"Irrigation, train 2009+2011 / test 2017",2017,variable,temperature_may_c,26,-12.78626083899719,49.017005920410156,May temperature
+"Irrigation, train 2009+2011 / test 2017",2017,variable,temperature_june_c,26,5.888620229867786,13.692353248596191,June temperature
+"Irrigation, train 2009+2011 / test 2017",2017,variable,temperature_may_june_c,26,-0.75721435546875,1.6176725625991821,May–June temperature
+"Irrigation, train 2009+2011 / test 2017",2017,variable,district,26,29.81481362548477,144.9813995361328,District
+"Irrigation, train 2009+2011 / test 2017",2017,variable,irrigation_group,26,194.43789066993233,195.92074584960938,Irrigation group
+"Irrigation, train 2009+2011 / test 2017",2017,group,District,26,21.38162877122006,144.9813995361328,District
+"Irrigation, train 2009+2011 / test 2017",2017,group,Rainfall,26,87.85857438819846,202.28118896484375,Rainfall
+"Irrigation, train 2009+2011 / test 2017",2017,group,Temperature,26,-7.482560874576606,53.86232376098633,Temperature
+"Irrigation, train 2009+2011 / test 2017",2017,group,Irrigation group,26,217.09769262678256,195.92074584960938,Irrigation group

@@ -88,7 +88,42 @@ def main():
     # Figure 3: PMFBY, without vs with across 30 paired random splits
     box_figure(pd.read_csv(RESULTS / "pmfby_runs.csv"), "fig_pmfby_boxplots", "condition",
                ("Without PMFBY", "With PMFBY"), (BLUE, ORANGE))
+    # Figure 4: XGBoost permutation importance (increase in MAE) per variable, one panel per condition
+    importance_figure(pd.read_csv(RESULTS / "xgboost_importance_runs.csv").query("level == 'variable'"))
     print("figures written to", FIGURES)
+
+
+def importance_figure(imp):
+    panels = [("Random split", "Random 80:20 split (30 splits)"),
+              ("Walk-forward", "Walk-forward (14 yearly test folds)"),
+              ("PMFBY (with indicator)", "With PMFBY indicator (30 splits)"),
+              ("Irrigation (with group)", "With irrigation group (79 rows, 30 splits)")]
+    fig, axes = plt.subplots(2, 2, figsize=(WIDTH_IN, 5.6))
+    for ax, (cond, title) in zip(axes.flat, panels):
+        sub = imp[imp.condition == cond]
+        order = sub.groupby("label").perm_mae_increase.mean().sort_values().index.tolist()
+        data = [sub[sub.label == lab].perm_mae_increase.values for lab in order]
+        ax.boxplot(data, orientation="horizontal", widths=0.6, patch_artist=True, showmeans=True, whis=1.5,
+                   boxprops=dict(facecolor=BLUE + "40", edgecolor=BLUE, linewidth=1.0),
+                   medianprops=dict(color=BLUE, linewidth=1.6),
+                   whiskerprops=dict(color=BLUE, linewidth=0.9), capprops=dict(color=BLUE, linewidth=0.9),
+                   flierprops=dict(marker="o", markersize=2.5, markerfacecolor="white",
+                                   markeredgecolor=BLUE, markeredgewidth=0.7),
+                   meanprops=MEAN_MARKER)
+        ax.set_yticks(range(1, len(order) + 1), order)
+        ax.axvline(0, color=MUTED, linewidth=0.8, linestyle=(0, (3, 2)), zorder=0)
+        ax.set_title(title)
+        ax.set_xlabel("Increase in MAE when shuffled (kg/ha)")
+        ax.spines[["top", "right"]].set_visible(False)
+        ax.xaxis.grid(True, color=GRID, linewidth=0.5)
+        ax.set_axisbelow(True)
+        ax.tick_params(length=2.5, width=0.6)
+    fig.legend(handles=[Line2D([], [], linestyle="none", label="Mean", **MEAN_MARKER)], loc="lower center",
+               frameon=False, bbox_to_anchor=(0.5, -0.01))
+    fig.tight_layout(rect=(0, 0.03, 1, 1), h_pad=1.4, w_pad=1.8)
+    for ext in ("pdf", "png"):
+        fig.savefig(FIGURES / f"fig_xgboost_importance.{ext}", bbox_inches="tight", dpi=170)
+    plt.close(fig)
 
 
 if __name__ == "__main__":
